@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-102454440-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-102454440-1');
+	</script>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Francois Lancelot | Software Engineer - AI Research Engineer</title>
+
+	<link rel="icon" href="favicon.ico" type="image/png" />
+
+	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://storage.googleapis.com/mrbot-cdn/webchat-latest.js"></script>
+
+</head>
+
+<body>
+	<main>
+		<div class="intro">François Lancelot</div>
+		<div class="tagline">Software Engineer | AI Research Engineer <br/>
+		</div>
+		<div class="icons-social">
+			<a target="_blank" href="https://github.com/francoislanc"><i class="fab fa-github"></i></a>
+			<a target="_blank" href="https://twitter.com/francoislanc"><i class="fab fa-twitter"></i></a>
+			<a target="_blank" href="https://www.linkedin.com/in/francois-lancelot-aa049641"><i class="fab fa-linkedin"></i></a>
+			<a target="_blank" href="mailto:francois@francoislancelot.com"><i class="fas fa-envelope"></i></a>
+
+		</div>
+		<div id="webchat"></div>
+	</main>
+	<script>
+		WebChat.default.init({
+			selector: "#webchat",
+			initPayload: "/greet",
+			socketUrl: "https://chat.francoislancelot.com/",
+			title: "",
+			subtitle: "",
+			showCloseButton: true,
+			fullScreenMode: false
+		})
+	</script>
+</body>
+
+</html>
