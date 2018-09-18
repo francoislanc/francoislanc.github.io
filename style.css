@@ -193,3 +193,9 @@ p {
   right: 0;
   z-index: 9999;
 }
+
+@media screen and (max-width: 800px) {
+  .widget-container {
+    height: inherit
+  }
+}
