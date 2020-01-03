@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>François Lancelot</title>
-    <link>https://francoislancelot.com/</link>
+    <link>https://www.francoislancelot.com/</link>
     <description>Recent content on François Lancelot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Francois Lancelot</copyright>
     <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://francoislancelot.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.francoislancelot.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Sea Life IDentification App</title>
-      <link>https://francoislancelot.com/project/sea_life_identification_app/</link>
+      <link>https://www.francoislancelot.com/project/sea_life_identification_app/</link>
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://francoislancelot.com/project/sea_life_identification_app/</guid>
+      <guid>https://www.francoislancelot.com/project/sea_life_identification_app/</guid>
       <description>App to automatically identify marine life from your underwater photos and videos.
 Developed with Flutter and with a tensorflow lite model for the classification.
 The app is available in Google Play Store : Sea Life ID</description>
@@ -25,10 +25,10 @@ The app is available in Google Play Store : Sea Life ID</description>
     
     <item>
       <title>Hello world</title>
-      <link>https://francoislancelot.com/blog/hello_world/</link>
+      <link>https://www.francoislancelot.com/blog/hello_world/</link>
       <pubDate>Sat, 02 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://francoislancelot.com/blog/hello_world/</guid>
+      <guid>https://www.francoislancelot.com/blog/hello_world/</guid>
       <description>Hello World In progress</description>
     </item>
     
