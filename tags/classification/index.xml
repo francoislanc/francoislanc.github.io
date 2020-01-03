@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>classification on François Lancelot</title>
+    <link>https://francoislancelot.com/tags/classification/</link>
+    <description>Recent content in classification on François Lancelot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Francois Lancelot</copyright>
+    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://francoislancelot.com/tags/classification/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sea Life IDentification App</title>
+      <link>https://francoislancelot.com/project/sea_life_identification_app/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://francoislancelot.com/project/sea_life_identification_app/</guid>
+      <description>App to automatically identify marine life from your underwater photos and videos.
+Developed with Flutter and with a tensorflow lite model for the classification.
+The app is available in Google Play Store : Sea Life ID</description>
+    </item>
+    
+  </channel>
+</rss>
