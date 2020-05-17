@@ -13,12 +13,28 @@
     
     
     <item>
-      <title>Hello world</title>
-      <link>https://www.francoislancelot.com/blog/hello_world/</link>
-      <pubDate>Sat, 02 Nov 2019 00:00:00 +0000</pubDate>
+      <title>Sailing Simulator Web App :sailboat: </title>
+      <link>https://www.francoislancelot.com/blog/sailing_simulator_web_app/</link>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.francoislancelot.com/blog/hello_world/</guid>
-      <description>Hello World In progress</description>
+      <guid>https://www.francoislancelot.com/blog/sailing_simulator_web_app/</guid>
+      <description>A web app in which you can select the boat&amp;rsquo;s initial position, select wind orientation, select a route to follow, and run a simulation with a simple sailing model.
+
+Developed with react-map-gl and boardgame.io.
+The web app is available at sailingsandbox.com
+⛵ Bon vent et bonne mer (Fair winds and following seas) !</description>
+    </item>
+    
+    <item>
+      <title>Sea Life IDentification App :fish: </title>
+      <link>https://www.francoislancelot.com/blog/sea_life_identification_app/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/blog/sea_life_identification_app/</guid>
+      <description>Sea Life IDentification App is an android mobile application that can automatically identify marine life from your underwater photos and videos.
+
+Developed with Flutter and with a custom tensorflow lite model for the classification.
+The app is available in Google Play Store : Sea Life ID</description>
     </item>
     
   </channel>

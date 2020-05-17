@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.francoislancelot.com/</loc>
+    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/map/</loc>
+    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/react/</loc>
+    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/sailing/</loc>
+    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/blog/sailing_simulator_web_app/</loc>
+    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/</loc>
+    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/web/</loc>
+    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.francoislancelot.com/about/</loc>
     <lastmod>2020-01-02T18:57:12+01:00</lastmod>
   </url>
@@ -23,42 +58,17 @@
   </url>
   
   <url>
-    <loc>https://www.francoislancelot.com/</loc>
-    <lastmod>2020-01-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.francoislancelot.com/tags/sea-life/</loc>
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.francoislancelot.com/project/sea_life_identification_app/</loc>
+    <loc>https://www.francoislancelot.com/blog/sea_life_identification_app/</loc>
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.francoislancelot.com/tags/</loc>
-    <lastmod>2020-01-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.francoislancelot.com/tags/hello/</loc>
-    <lastmod>2019-11-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.francoislancelot.com/blog/hello_world/</loc>
-    <lastmod>2019-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.francoislancelot.com/blog/</loc>
-    <lastmod>2017-07-02T08:14:51+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.francoislancelot.com/project/</loc>
     <lastmod>2017-07-02T08:14:51+07:00</lastmod>
   </url>
   

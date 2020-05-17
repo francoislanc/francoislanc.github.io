@@ -13,13 +13,14 @@
     
     
     <item>
-      <title>Sea Life IDentification App</title>
-      <link>https://www.francoislancelot.com/project/sea_life_identification_app/</link>
+      <title>Sea Life IDentification App :fish: </title>
+      <link>https://www.francoislancelot.com/blog/sea_life_identification_app/</link>
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.francoislancelot.com/project/sea_life_identification_app/</guid>
-      <description>App to automatically identify marine life from your underwater photos and videos.
-Developed with Flutter and with a tensorflow lite model for the classification.
+      <guid>https://www.francoislancelot.com/blog/sea_life_identification_app/</guid>
+      <description>Sea Life IDentification App is an android mobile application that can automatically identify marine life from your underwater photos and videos.
+
+Developed with Flutter and with a custom tensorflow lite model for the classification.
 The app is available in Google Play Store : Sea Life ID</description>
     </item>
     
