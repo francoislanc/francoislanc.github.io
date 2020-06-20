@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>airport on François Lancelot</title>
+    <link>https://www.francoislancelot.com/tags/airport/</link>
+    <description>Recent content in airport on François Lancelot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Francois Lancelot</copyright>
+    <lastBuildDate>Wed, 03 Jun 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.francoislancelot.com/tags/airport/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Modern taxiing on airport ground control :airplane:</title>
+      <link>https://www.francoislancelot.com/blog/paper_2015_modern_taxiing_airport/</link>
+      <pubDate>Wed, 03 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/blog/paper_2015_modern_taxiing_airport/</guid>
+      <description>Lancelot, F., Causse, M., Schneider, N. and Mongeau, M., 2015. Human-in-the-loop multi-agent approach for airport taxiing operations. In Trends in Practical Applications of Agents, Multi-Agent Systems and Sustainability (pp. 235-236). Springer, Cham.
+  Chua, Z., Cousy, M., Causse, M. and Lancelot, F., 2016, September. Initial assessment of the impact of modern taxiing techniques on airport ground control. In Proceedings of the International Conference on Human-Computer Interaction in Aerospace (pp.</description>
+    </item>
+    
+  </channel>
+</rss>

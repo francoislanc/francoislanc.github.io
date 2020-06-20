@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>website on François Lancelot</title>
+    <link>https://www.francoislancelot.com/tags/website/</link>
+    <description>Recent content in website on François Lancelot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Francois Lancelot</copyright>
+    <lastBuildDate>Sat, 20 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.francoislancelot.com/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Visual recipes website :man_cook: </title>
+      <link>https://www.francoislancelot.com/blog/visual_recipes/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/blog/visual_recipes/</guid>
+      <description>A website that hosts recipes with an original layout.
+
+It supports multiple languages and multiple units of measurement.
+Developed with phoenix/elixir.
+The website is available at www.myvisualrecipes.com</description>
+    </item>
+    
+  </channel>
+</rss>

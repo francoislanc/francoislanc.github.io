@@ -3,8 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.francoislancelot.com/tags/elixir/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.francoislancelot.com/</loc>
-    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/phoenix/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/recipes/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/blog/visual_recipes/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/web/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/website/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -24,16 +59,6 @@
   
   <url>
     <loc>https://www.francoislancelot.com/blog/sailing_simulator_web_app/</loc>
-    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.francoislancelot.com/tags/</loc>
-    <lastmod>2020-05-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.francoislancelot.com/tags/web/</loc>
     <lastmod>2020-05-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,8 +93,103 @@
   </url>
   
   <url>
+    <loc>https://www.francoislancelot.com/tags/adaptation/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/eye-tracking/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/learning/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/blog/paper_2019_eye_tracking_adaptation/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/blog/2018_atc_speech_reco_challenge/</loc>
+    <lastmod>2018-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/atc/</loc>
+    <lastmod>2018-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/speech/</loc>
+    <lastmod>2018-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/transcription/</loc>
+    <lastmod>2018-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.francoislancelot.com/blog/</loc>
     <lastmod>2017-07-02T08:14:51+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/airport/</loc>
+    <lastmod>2015-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/blog/paper_2015_modern_taxiing_airport/</loc>
+    <lastmod>2015-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/multi-agent/</loc>
+    <lastmod>2015-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/taxiing/</loc>
+    <lastmod>2015-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/fnirs/</loc>
+    <lastmod>2015-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/blog/paper_2015_state_estimation_fnirs/</loc>
+    <lastmod>2015-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/state/</loc>
+    <lastmod>2015-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/workload/</loc>
+    <lastmod>2015-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/blog/eurobot_2011/</loc>
+    <lastmod>2011-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/robotics/</loc>
+    <lastmod>2011-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/simulator/</loc>
+    <lastmod>2011-06-30T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>

@@ -13,7 +13,20 @@
     
     
     <item>
-      <title>Sailing Simulator Web App :sailboat: </title>
+      <title>Visual recipes website :man_cook: </title>
+      <link>https://www.francoislancelot.com/blog/visual_recipes/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/blog/visual_recipes/</guid>
+      <description>A website that hosts recipes with an original layout.
+
+It supports multiple languages and multiple units of measurement.
+Developed with phoenix/elixir.
+The website is available at www.myvisualrecipes.com</description>
+    </item>
+    
+    <item>
+      <title>Sailing simulator web app :sailboat: </title>
       <link>https://www.francoislancelot.com/blog/sailing_simulator_web_app/</link>
       <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
       
@@ -26,7 +39,7 @@ The web app is available at sailingsandbox.com
     </item>
     
     <item>
-      <title>Sea Life IDentification App :fish: </title>
+      <title>Sea life identification app :fish: </title>
       <link>https://www.francoislancelot.com/blog/sea_life_identification_app/</link>
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
       
@@ -35,6 +48,55 @@ The web app is available at sailingsandbox.com
 
 Developed with Flutter and with a custom tensorflow lite model for the classification.
 The app is available in Google Play Store : Sea Life ID</description>
+    </item>
+    
+    <item>
+      <title>Using eye-tracking as input for system adaptation :eyes:</title>
+      <link>https://www.francoislancelot.com/blog/paper_2019_eye_tracking_adaptation/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/blog/paper_2019_eye_tracking_adaptation/</guid>
+      <description> Causse, M., Lancelot, F., Maillant, J., Behrend, J., Cousy, M. and Schneider, N., 2019. Encoding decisions and expertise in the operator&amp;rsquo;s eyes: Using eye-tracking as input for system adaptation. International Journal of Human-Computer Studies, 125, pp.55-65.  </description>
+    </item>
+    
+    <item>
+      <title>Air traffic control speech recognition challenge :sound:</title>
+      <link>https://www.francoislancelot.com/blog/2018_atc_speech_reco_challenge/</link>
+      <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/blog/2018_atc_speech_reco_challenge/</guid>
+      <description> Pellegrini, T., Farinas, J., Delpech, E. and Lancelot, F., 2018. The Airbus Air Traffic Control speech recognition 2018 challenge: towards ATC automatic transcription and call sign detection. arXiv preprint arXiv:1810.12614.  </description>
+    </item>
+    
+    <item>
+      <title>Modern taxiing on airport ground control :airplane:</title>
+      <link>https://www.francoislancelot.com/blog/paper_2015_modern_taxiing_airport/</link>
+      <pubDate>Wed, 03 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/blog/paper_2015_modern_taxiing_airport/</guid>
+      <description>Lancelot, F., Causse, M., Schneider, N. and Mongeau, M., 2015. Human-in-the-loop multi-agent approach for airport taxiing operations. In Trends in Practical Applications of Agents, Multi-Agent Systems and Sustainability (pp. 235-236). Springer, Cham.
+  Chua, Z., Cousy, M., Causse, M. and Lancelot, F., 2016, September. Initial assessment of the impact of modern taxiing techniques on airport ground control. In Proceedings of the International Conference on Human-Computer Interaction in Aerospace (pp.</description>
+    </item>
+    
+    <item>
+      <title>Real-time state estimation in a flight simulator using fNIRS :bar_chart:</title>
+      <link>https://www.francoislancelot.com/blog/paper_2015_state_estimation_fnirs/</link>
+      <pubDate>Fri, 27 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/blog/paper_2015_state_estimation_fnirs/</guid>
+      <description> Gateau, T., Durantin, G., Lancelot, F., Scannella, S. and Dehais, F., 2015. Real-time state estimation in a flight simulator using fNIRS. PloS one, 10(3), p.e0121279.  </description>
+    </item>
+    
+    <item>
+      <title>Eurobot 2011 :robot: </title>
+      <link>https://www.francoislancelot.com/blog/eurobot_2011/</link>
+      <pubDate>Thu, 30 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/blog/eurobot_2011/</guid>
+      <description>Since 1998, Eurobot is an international robotics contest. The photo below shows the robot built in 2011 with the robotics club of INSA Toulouse.
+A simulator was developed to test the robot strategies :
+Your browser does not support the HTML5 Video element.  The following video is a nice match of the robot :
+Your browser does not support the HTML5 Video element.  </description>
     </item>
     
   </channel>

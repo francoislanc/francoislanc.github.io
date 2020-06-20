@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Francois Lancelot</copyright>
-    <lastBuildDate>Sat, 16 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.francoislancelot.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>elixir</title>
+      <link>https://www.francoislancelot.com/tags/elixir/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/elixir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>phoenix</title>
+      <link>https://www.francoislancelot.com/tags/phoenix/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/phoenix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>recipes</title>
+      <link>https://www.francoislancelot.com/tags/recipes/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/recipes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://www.francoislancelot.com/tags/web/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>website</title>
+      <link>https://www.francoislancelot.com/tags/website/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/website/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>map</title>
@@ -36,15 +81,6 @@
       <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.francoislancelot.com/tags/sailing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>web</title>
-      <link>https://www.francoislancelot.com/tags/web/</link>
-      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.francoislancelot.com/tags/web/</guid>
       <description></description>
     </item>
     
@@ -81,6 +117,132 @@
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.francoislancelot.com/tags/sea-life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>adaptation</title>
+      <link>https://www.francoislancelot.com/tags/adaptation/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/adaptation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eye-tracking</title>
+      <link>https://www.francoislancelot.com/tags/eye-tracking/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/eye-tracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learning</title>
+      <link>https://www.francoislancelot.com/tags/learning/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>atc</title>
+      <link>https://www.francoislancelot.com/tags/atc/</link>
+      <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/atc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>speech</title>
+      <link>https://www.francoislancelot.com/tags/speech/</link>
+      <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/speech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>transcription</title>
+      <link>https://www.francoislancelot.com/tags/transcription/</link>
+      <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/transcription/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>airport</title>
+      <link>https://www.francoislancelot.com/tags/airport/</link>
+      <pubDate>Wed, 03 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/airport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>multi-agent</title>
+      <link>https://www.francoislancelot.com/tags/multi-agent/</link>
+      <pubDate>Wed, 03 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/multi-agent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>taxiing</title>
+      <link>https://www.francoislancelot.com/tags/taxiing/</link>
+      <pubDate>Wed, 03 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/taxiing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fnirs</title>
+      <link>https://www.francoislancelot.com/tags/fnirs/</link>
+      <pubDate>Fri, 27 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/fnirs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>state</title>
+      <link>https://www.francoislancelot.com/tags/state/</link>
+      <pubDate>Fri, 27 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/state/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workload</title>
+      <link>https://www.francoislancelot.com/tags/workload/</link>
+      <pubDate>Fri, 27 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/workload/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>robotics</title>
+      <link>https://www.francoislancelot.com/tags/robotics/</link>
+      <pubDate>Thu, 30 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/robotics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>simulator</title>
+      <link>https://www.francoislancelot.com/tags/simulator/</link>
+      <pubDate>Thu, 30 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/simulator/</guid>
       <description></description>
     </item>
     

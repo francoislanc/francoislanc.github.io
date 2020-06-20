@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>atc on François Lancelot</title>
+    <link>https://www.francoislancelot.com/tags/atc/</link>
+    <description>Recent content in atc on François Lancelot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Francois Lancelot</copyright>
+    <lastBuildDate>Thu, 04 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.francoislancelot.com/tags/atc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Air traffic control speech recognition challenge :sound:</title>
+      <link>https://www.francoislancelot.com/blog/2018_atc_speech_reco_challenge/</link>
+      <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/blog/2018_atc_speech_reco_challenge/</guid>
+      <description> Pellegrini, T., Farinas, J., Delpech, E. and Lancelot, F., 2018. The Airbus Air Traffic Control speech recognition 2018 challenge: towards ATC automatic transcription and call sign detection. arXiv preprint arXiv:1810.12614.  </description>
+    </item>
+    
+  </channel>
+</rss>
