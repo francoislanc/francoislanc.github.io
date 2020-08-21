@@ -7,10 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Francois Lancelot</copyright>
-    <lastBuildDate>Sat, 20 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.francoislancelot.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>javascript</title>
+      <link>https://www.francoislancelot.com/tags/javascript/</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pyodide</title>
+      <link>https://www.francoislancelot.com/tags/pyodide/</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/pyodide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://www.francoislancelot.com/tags/python/</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vuejs</title>
+      <link>https://www.francoislancelot.com/tags/vuejs/</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/vuejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://www.francoislancelot.com/tags/web/</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>webassembly</title>
+      <link>https://www.francoislancelot.com/tags/webassembly/</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/webassembly/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>elixir</title>
@@ -36,15 +90,6 @@
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.francoislancelot.com/tags/recipes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>web</title>
-      <link>https://www.francoislancelot.com/tags/web/</link>
-      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.francoislancelot.com/tags/web/</guid>
       <description></description>
     </item>
     
@@ -144,6 +189,15 @@
       <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.francoislancelot.com/tags/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper</title>
+      <link>https://www.francoislancelot.com/tags/paper/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/paper/</guid>
       <description></description>
     </item>
     

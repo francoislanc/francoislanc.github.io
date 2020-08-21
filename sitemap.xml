@@ -3,12 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.francoislancelot.com/tags/elixir/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+    <loc>https://www.francoislancelot.com/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.francoislancelot.com/</loc>
+    <loc>https://www.francoislancelot.com/tags/javascript/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/pyodide/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/python/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/blog/scikitlearn_vuejs_app_example/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/vuejs/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/web/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/webassembly/</loc>
+    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/elixir/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -23,17 +63,7 @@
   </url>
   
   <url>
-    <loc>https://www.francoislancelot.com/tags/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.francoislancelot.com/blog/visual_recipes/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.francoislancelot.com/tags/web/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -104,6 +134,11 @@
   
   <url>
     <loc>https://www.francoislancelot.com/tags/learning/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/tags/paper/</loc>
     <lastmod>2019-05-01T00:00:00+00:00</lastmod>
   </url>
   

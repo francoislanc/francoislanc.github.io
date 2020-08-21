@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>paper on François Lancelot</title>
+    <link>https://www.francoislancelot.com/tags/paper/</link>
+    <description>Recent content in paper on François Lancelot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Francois Lancelot</copyright>
+    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.francoislancelot.com/tags/paper/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using eye-tracking as input for system adaptation :eyes:</title>
+      <link>https://www.francoislancelot.com/blog/paper_2019_eye_tracking_adaptation/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/blog/paper_2019_eye_tracking_adaptation/</guid>
+      <description> Causse, M., Lancelot, F., Maillant, J., Behrend, J., Cousy, M. and Schneider, N., 2019. Encoding decisions and expertise in the operator&amp;rsquo;s eyes: Using eye-tracking as input for system adaptation. International Journal of Human-Computer Studies, 125, pp.55-65.  </description>
+    </item>
+    
+    <item>
+      <title>Air traffic control speech recognition challenge :sound:</title>
+      <link>https://www.francoislancelot.com/blog/2018_atc_speech_reco_challenge/</link>
+      <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/blog/2018_atc_speech_reco_challenge/</guid>
+      <description> Pellegrini, T., Farinas, J., Delpech, E. and Lancelot, F., 2018. The Airbus Air Traffic Control speech recognition 2018 challenge: towards ATC automatic transcription and call sign detection. arXiv preprint arXiv:1810.12614.  </description>
+    </item>
+    
+    <item>
+      <title>Modern taxiing on airport ground control :airplane:</title>
+      <link>https://www.francoislancelot.com/blog/paper_2015_modern_taxiing_airport/</link>
+      <pubDate>Wed, 03 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/blog/paper_2015_modern_taxiing_airport/</guid>
+      <description>Lancelot, F., Causse, M., Schneider, N. and Mongeau, M., 2015. Human-in-the-loop multi-agent approach for airport taxiing operations. In Trends in Practical Applications of Agents, Multi-Agent Systems and Sustainability (pp. 235-236). Springer, Cham.   Chua, Z., Cousy, M., Causse, M. and Lancelot, F., 2016, September. Initial assessment of the impact of modern taxiing techniques on airport ground control. In Proceedings of the International Conference on Human-Computer Interaction in Aerospace (pp.</description>
+    </item>
+    
+    <item>
+      <title>Real-time state estimation in a flight simulator using fNIRS :bar_chart:</title>
+      <link>https://www.francoislancelot.com/blog/paper_2015_state_estimation_fnirs/</link>
+      <pubDate>Fri, 27 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/blog/paper_2015_state_estimation_fnirs/</guid>
+      <description> Gateau, T., Durantin, G., Lancelot, F., Scannella, S. and Dehais, F., 2015. Real-time state estimation in a flight simulator using fNIRS. PloS one, 10(3), p.e0121279.  </description>
+    </item>
+    
+  </channel>
+</rss>
