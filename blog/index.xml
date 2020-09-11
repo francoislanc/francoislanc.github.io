@@ -99,6 +99,16 @@ The app is available in Google Play Store : Sea Life ID</description>
     </item>
     
     <item>
+      <title>Remote control car to arduino robot :car: </title>
+      <link>https://www.francoislancelot.com/blog/rc_car_to_arduino_robot/</link>
+      <pubDate>Mon, 20 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/blog/rc_car_to_arduino_robot/</guid>
+      <description>A remote control (RC) car modified to become an Arduino Robot :
+Developed with an Arduino Mega board. The source code is available on Github.</description>
+    </item>
+    
+    <item>
       <title>Eurobot 2011 :robot: </title>
       <link>https://www.francoislancelot.com/blog/eurobot_2011/</link>
       <pubDate>Thu, 30 Jun 2011 00:00:00 +0000</pubDate>

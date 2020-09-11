@@ -213,12 +213,22 @@
   </url>
   
   <url>
-    <loc>https://www.francoislancelot.com/blog/eurobot_2011/</loc>
-    <lastmod>2011-06-30T00:00:00+00:00</lastmod>
+    <loc>https://www.francoislancelot.com/tags/arduino/</loc>
+    <lastmod>2012-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/blog/rc_car_to_arduino_robot/</loc>
+    <lastmod>2012-08-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.francoislancelot.com/tags/robotics/</loc>
+    <lastmod>2012-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.francoislancelot.com/blog/eurobot_2011/</loc>
     <lastmod>2011-06-30T00:00:00+00:00</lastmod>
   </url>
   
