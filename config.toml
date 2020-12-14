@@ -72,7 +72,7 @@ enableEmoji = true
 	# Color of your website's accent
 	colorTheme = "#0277bd"
 	# Maximum number of item in Latest Posts or Works
-	latestCount = 5
+	latestCount = 6
 	# Path to site's favicon image
 	faviconImg = "/favicon.ico"
 	# Date format in item list
@@ -86,7 +86,7 @@ enableEmoji = true
 	# Social Links
     scholar = "https://scholar.google.fr/citations?user=XUGOVcoAAAAJ&hl=en"
     linkedin = "https://www.linkedin.com/in/francois-lancelot-aa049641"
-	# twitter = "https://twitter.com/francoislanc"
+	# twitter = ""
 
 	# Analytics
 	analytics = false
