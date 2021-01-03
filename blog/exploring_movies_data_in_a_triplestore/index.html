@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="generator" content="Hugo 0.74.3" />
+		<title>Exploring movies data in a triplestore 🎥 - François Lancelot</title>
+
+		<meta name="description" content="Let&rsquo;s explore a dataset from Flixable, which is a third-party Netflix search engine and IMDb and try to answer the following questions:
+ What are the top movies on Netflix according to the IMDb rating? What are the top countries producing films? Who are the cast members who appear in the most Netflix Movies? What are the top movies added on Netflix between May 2018 and August 2018? What is the last movie from Steven Spielberg added on Netflix?">
+
+
+		
+		<link rel="shortcut icon" href="/favicon.ico">
+		
+	
+		
+
+
+
+
+<link rel="stylesheet" href="/css/ui.css">
+
+	
+		
+
+		<link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono|Lato|Raleway">
+
+		
+	</head>
+
+<body>
+<header class="container no-print">
+	<div class="u-header">
+		<nav class="bar">
+	<ul><li>
+			<a href="/">
+				<img class="icon-text" src="/img/prev.svg"/>
+			</a>
+		</li><li><a href="/about">About</a></li><li><a href="/blog/">Blog</a></li></ul>
+</nav>
+
+	</div>
+</header>
+<main class="container">
+
+<article>
+	<header><hgroup id="brand">
+	<h1>Exploring movies data in a triplestore 🎥</h1>
+	<h5>
+		
+		<time datetime="2021-01-03 00:00:00 &#43;0000 UTC">Jan 03, 2021</time>
+		<span class="no-print">
+			-
+				
+				<a href="/tags/data%20analytics">data analytics</a>
+				
+				<a href="/tags/movie">movie</a>
+				
+				<a href="/tags/triplestore">triplestore</a>
+				
+				<a href="/tags/query">query</a>
+				<span>
+	</h5>
+	
+</hgroup>
+<hr class="sep" />
+</header>
+	<p>Let&rsquo;s explore a <a href="https://www.kaggle.com/shivamb/netflix-shows">dataset</a> from Flixable, which is a third-party Netflix search engine and IMDb and try to answer the following questions:</p>
+<ol>
+<li><a href="#query1">What are the top movies on Netflix according to the IMDb rating?</a></li>
+<li><a href="#query2">What are the top countries producing films?</a></li>
+<li><a href="#query3">Who are the cast members who appear in the most Netflix Movies?</a></li>
+<li><a href="#query4">What are the top movies added on Netflix between May 2018 and August 2018?</a></li>
+<li><a href="#query5">What is the last movie from Steven Spielberg added on Netflix?</a></li>
+</ol>
+<p>The initial data are stored in a csv:
+<a href="/exploring_movies_data_in_a_triplestore/movies_data_raw_csv.png"><img src="/exploring_movies_data_in_a_triplestore/movies_data_raw_csv.png" alt="Initial csv data"></a></p>
+<p>After cleaning and transformation, the data are loaded into a triplestore for querying:
+<a href="/exploring_movies_data_in_a_triplestore/movies_data_triplestore.png"><img src="/exploring_movies_data_in_a_triplestore/movies_data_triplestore.png" alt="Data in a triplestore"></a></p>
+<p>Then the questions are transformed into SPARQL-like queries and run against the triplestore:</p>
+<h2 id="query1"></h2>
+<ol>
+<li>What are the top movies on Netflix according to the IMDb rating?</li>
+</ol>
+<p>Query:</p>
+<pre><code>SELECT ?movie, ?rating
+FROM ?g
+WHERE {
+    ?movie &quot;average_rating&quot;@[] ?rating .
+    ?movie &quot;num_votes&quot;@[] ?votes
+}
+ORDER BY ?rating DESC
+HAVING ?votes &gt; &quot;5000&quot;^^type:int64
+LIMIT &quot;10&quot;^^type:int64;
+</code></pre><p>Output:</p>
+<pre><code>?movie  ?rating
+/movie&lt;schindlers list&gt; &quot;8.9&quot;^^type:float64
+/movie&lt;pulp fiction&gt;    &quot;8.9&quot;^^type:float64
+/movie&lt;the lord of the rings the return of the king&gt;    &quot;8.9&quot;^^type:float64
+/movie&lt;inception&gt;       &quot;8.8&quot;^^type:float64
+/movie&lt;the lord of the rings the two towers&gt;    &quot;8.7&quot;^^type:float64
+/movie&lt;the matrix&gt;      &quot;8.7&quot;^^type:float64
+/movie&lt;city of god&gt;     &quot;8.6&quot;^^type:float64
+/movie&lt;once upon a time in the west&gt;    &quot;8.5&quot;^^type:float64
+/movie&lt;the departed&gt;    &quot;8.5&quot;^^type:float64
+/movie&lt;senna&gt;   &quot;8.5&quot;^^type:float64
+
+[OK] 10 rows retrieved. BQL time: 80.1355ms. Display time: 50.3µs
+</code></pre><h2 id="query2"></h2>
+<ol start="2">
+<li>What are the top countries producing the films?</li>
+</ol>
+<p>Query:</p>
+<pre><code>SELECT ?country, COUNT(?movie) AS ?movies_count
+FROM ?g
+WHERE {
+    ?movie &quot;country&quot;@[] ?country
+}
+GROUP BY ?country
+ORDER BY ?movies_count DESC
+LIMIT &quot;10&quot;^^type:int64;
+</code></pre><p>Output:</p>
+<pre><code>?country        ?movies_count
+&quot;United States&quot;^^type:text      &quot;1304&quot;^^type:int64
+&quot;India&quot;^^type:text      &quot;583&quot;^^type:int64
+&quot;United Kingdom&quot;^^type:text     &quot;277&quot;^^type:int64
+&quot;France&quot;^^type:text     &quot;151&quot;^^type:int64
+&quot;Canada&quot;^^type:text     &quot;146&quot;^^type:int64
+&quot;Germany&quot;^^type:text    &quot;103&quot;^^type:int64
+&quot;Spain&quot;^^type:text      &quot;92&quot;^^type:int64
+&quot;China&quot;^^type:text      &quot;76&quot;^^type:int64
+&quot;Hong Kong&quot;^^type:text  &quot;76&quot;^^type:int64
+&quot;Australia&quot;^^type:text  &quot;57&quot;^^type:int64
+
+[OK] 10 rows retrieved. BQL time: 30.8864ms. Display time: 43.1µs
+</code></pre><h2 id="query3"></h2>
+<ol start="3">
+<li>Who are the cast members who appear in the most Netflix Movies?</li>
+</ol>
+<p>Query:</p>
+<pre><code>SELECT ?person, COUNT(?movie) AS ?movies_count
+FROM ?g
+WHERE {
+    ?person &quot;played&quot;@[] ?movie
+}
+GROUP BY ?person
+ORDER BY ?movies_count DESC
+LIMIT &quot;10&quot;^^type:int64;
+</code></pre><p>Output:</p>
+<pre><code>?person ?movies_count
+/person&lt;Shah Rukh Khan&gt; &quot;23&quot;^^type:int64
+/person&lt;Boman Irani&gt;    &quot;22&quot;^^type:int64
+/person&lt;Akshay Kumar&gt;   &quot;21&quot;^^type:int64
+/person&lt;Paresh Rawal&gt;   &quot;20&quot;^^type:int64
+/person&lt;Anupam Kher&gt;    &quot;19&quot;^^type:int64
+/person&lt;Naseeruddin Shah&gt;       &quot;18&quot;^^type:int64
+/person&lt;Om Puri&gt;        &quot;17&quot;^^type:int64
+/person&lt;Nicolas Cage&gt;   &quot;16&quot;^^type:int64
+/person&lt;Gulshan Grover&gt; &quot;15&quot;^^type:int64
+/person&lt;Kay Kay Menon&gt;  &quot;15&quot;^^type:int64
+
+[OK] 10 rows retrieved. BQL time: 229.6949ms. Display time: 48.9µs
+</code></pre><h2 id="query4"></h2>
+<ol start="4">
+<li>What are the top movies added on Netflix between May 2018 and August 2018?</li>
+</ol>
+<p>Query:</p>
+<pre><code>SELECT ?movie, ?time, ?rating
+FROM ?g
+WHERE {
+    /platform&lt;Netflix&gt; &quot;added&quot;@[?time] ?movie .
+    ?movie &quot;average_rating&quot;@[] ?rating .
+    ?movie &quot;num_votes&quot;@[] ?votes
+}
+ORDER BY ?rating DESC
+HAVING ?votes &gt; &quot;5000&quot;^^type:int64
+BETWEEN 2018-05-01T00:00:00Z, 2018-08-31T00:00:00Z
+LIMIT &quot;10&quot;^^type:int64;
+</code></pre><p>Output:</p>
+<pre><code>?movie  ?time   ?rating
+/movie&lt;rang de basanti&gt; 2018-08-02T00:00:00Z    &quot;8.2&quot;^^type:float64
+/movie&lt;andaz apna apna&gt; 2018-05-16T00:00:00Z    &quot;8.2&quot;^^type:float64
+/movie&lt;room&gt;    2018-07-19T00:00:00Z    &quot;8.1&quot;^^type:float64
+/movie&lt;haider&gt;  2018-08-02T00:00:00Z    &quot;8.1&quot;^^type:float64
+/movie&lt;inequality for all&gt;      2018-08-29T00:00:00Z    &quot;8&quot;^^type:float64
+/movie&lt;her&gt;     2018-07-29T00:00:00Z    &quot;8&quot;^^type:float64
+/movie&lt;the kings speech&gt;        2018-06-02T00:00:00Z    &quot;8&quot;^^type:float64
+/movie&lt;thor ragnarok&gt;   2018-06-05T00:00:00Z    &quot;7.9&quot;^^type:float64
+/movie&lt;pad man&gt; 2018-08-21T00:00:00Z    &quot;7.9&quot;^^type:float64
+/movie&lt;amy&gt;     2018-07-26T00:00:00Z    &quot;7.8&quot;^^type:float64
+
+[OK] 10 rows retrieved. BQL time: 10.38ms. Display time: 58µs
+</code></pre><h2 id="query5"></h2>
+<ol start="5">
+<li>What is the last movie from Steven Spielberg added on Netflix?</li>
+</ol>
+<p>Query:</p>
+<pre><code>SELECT ?movie, ?time
+FROM ?g
+WHERE {
+    /platform&lt;Netflix&gt; &quot;added&quot;@[?time] ?movie .
+    /person&lt;Steven Spielberg&gt; &quot;directed&quot;@[] ?movie
+}
+ORDER BY ?time DESC
+LIMIT &quot;1&quot;^^type:int64;
+</code></pre><p>Output:</p>
+<pre><code>?movie  ?time
+/movie&lt;catch me if you can&gt;     2020-01-01T00:00:00Z
+
+[OK] 1 rows retrieved. BQL time: 18.1343ms. Display time: 35.1µs
+</code></pre><p>Developed with <a href="http://google.github.io/badwolf/">Badwolf</a> triplestore and <a href="https://g6.antv.vision/en">G6</a> graph visualization engine.<br>
+The source code is available on <a href="https://github.com/francoislanc/exploring-movies-data-in-a-triplestore">Github</a>.</p>
+
+</article>
+<nav class="no-print post-nav">
+
+	<a class="prev-post" href="https://www.francoislancelot.com/blog/scikitlearn_vuejs_app_example/">
+		<img class="icon-text" src="/img/prev.svg"/>
+		Scikit-learn in a Vue.js app 🐍  
+	</a>
+
+
+</nav>
+
+
+
+
+
+			<hr class="sep" />
+		</main>
+		<footer class="container no-print">
+			<div class="u-footer">
+				
+
+
+<a href="https://scholar.google.fr/citations?user=XUGOVcoAAAAJ&amp;hl=en"><img class="icon-social" src="/img/google-scholar.svg" alt="Google Scholar"/></a>
+
+
+<a href="https://www.linkedin.com/in/francois-lancelot-aa049641"><img class="icon-social" src="/img/linkedin.svg" alt="Linkedin"/></a>
+
+
+<a href="https://www.francoislancelot.com/index.xml" target="_blank"><img class="icon-social" src="/img/feed.svg" alt="Feed"></a>
+
+				<p>
+					
+					
+					&copy; 2021 Francois Lancelot
+					
+					
+				</p>
+				
+				<a href="#brand">
+					<img class="icon-text" src="/img/toup.svg" alt="To Up"/>
+					<span>Back to Up</span>
+				</a>
+				
+			</div>
+		</footer>
+		
+
+		
+	</body>
+</html>
+

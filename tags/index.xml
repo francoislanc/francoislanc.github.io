@@ -6,11 +6,47 @@
     <description>Recent content in Tags on François Lancelot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2020 Francois Lancelot</copyright>
-    <lastBuildDate>Wed, 19 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2021 Francois Lancelot</copyright>
+    <lastBuildDate>Sun, 03 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.francoislancelot.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>data analytics</title>
+      <link>https://www.francoislancelot.com/tags/data-analytics/</link>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/data-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>movie</title>
+      <link>https://www.francoislancelot.com/tags/movie/</link>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/movie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>query</title>
+      <link>https://www.francoislancelot.com/tags/query/</link>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/query/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>triplestore</title>
+      <link>https://www.francoislancelot.com/tags/triplestore/</link>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/tags/triplestore/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>javascript</title>
