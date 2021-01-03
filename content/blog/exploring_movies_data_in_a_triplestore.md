@@ -2,7 +2,7 @@
 title = "Exploring movies data in a triplestore 🎥"
 description = ""
 tags = [
-    "data analytics",
+    "data",
     "movie",
     "triplestore",
     "query"
