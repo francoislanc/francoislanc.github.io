@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2021 Francois Lancelot</copyright>
-    <lastBuildDate>Mon, 20 Aug 2012 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.francoislancelot.com/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 20 Aug 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://www.francoislancelot.com/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Remote control car to arduino robot :car: </title>
       <link>https://www.francoislancelot.com/blog/rc_car_to_arduino_robot/</link>
@@ -29,9 +25,7 @@ Developed with an Arduino Mega board. The source code is available on Github.</d
       
       <guid>https://www.francoislancelot.com/blog/eurobot_2011/</guid>
       <description>Since 1998, Eurobot is an international robotics contest. The photo below shows the robot built in 2011 with the robotics club of INSA Toulouse.
-A simulator was developed to test the robot strategies :
-Your browser does not support the HTML5 Video element.  The following video is a nice match of the robot :
-Your browser does not support the HTML5 Video element.  </description>
+A simulator was developed to test the robot strategies :   The following video is a nice match of the robot :   </description>
     </item>
     
   </channel>

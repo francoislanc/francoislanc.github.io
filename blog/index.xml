@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2021 Francois Lancelot</copyright>
-    <lastBuildDate>Sun, 02 Jul 2017 08:14:51 +0700</lastBuildDate>
-    
-	<atom:link href="https://www.francoislancelot.com/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 02 Jul 2017 08:14:51 +0700</lastBuildDate><atom:link href="https://www.francoislancelot.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exploring movies data in a triplestore 🎥</title>
       <link>https://www.francoislancelot.com/blog/exploring_movies_data_in_a_triplestore/</link>
@@ -40,11 +36,8 @@ The source code is available on Github.</description>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.francoislancelot.com/blog/visual_recipes/</guid>
-      <description>A website that hosts recipes with an original layout.
-
-It supports multiple languages and multiple units of measurement.
-Developed with phoenix/elixir.
-The website is available at www.myvisualrecipes.com</description>
+      <description>A website that hosts recipes with an original layout.   It supports multiple languages and multiple units of measurement.
+Developed with phoenix/elixir.</description>
     </item>
     
     <item>
@@ -53,10 +46,7 @@ The website is available at www.myvisualrecipes.com</description>
       <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.francoislancelot.com/blog/sailing_simulator_web_app/</guid>
-      <description>A web app in which you can select the boat&amp;rsquo;s initial position, select wind orientation, select a route to follow, and run a simulation with a simple sailing model.
-
-Developed with react-map-gl and boardgame.io.
-The web app is available at sailingsandbox.com
+      <description>A web app in which you can select the boat&amp;rsquo;s initial position, select wind orientation, select a route to follow, and run a simulation with a simple sailing model.   Developed with react-map-gl and boardgame.io.
 ⛵ Bon vent et bonne mer (Fair winds and following seas) !</description>
     </item>
     
@@ -66,9 +56,7 @@ The web app is available at sailingsandbox.com
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.francoislancelot.com/blog/sea_life_identification_app/</guid>
-      <description>Sea Life IDentification App is an android mobile application that can automatically identify marine life from your underwater photos and videos.
-
-Developed with Flutter and with a custom tensorflow lite model for the classification.
+      <description>Sea Life IDentification App is an android mobile application that can automatically identify marine life from your underwater photos and videos.   Developed with Flutter and with a custom tensorflow lite model for the classification.
 The app is available in Google Play Store : Sea Life ID</description>
     </item>
     
@@ -125,9 +113,7 @@ Developed with an Arduino Mega board. The source code is available on Github.</d
       
       <guid>https://www.francoislancelot.com/blog/eurobot_2011/</guid>
       <description>Since 1998, Eurobot is an international robotics contest. The photo below shows the robot built in 2011 with the robotics club of INSA Toulouse.
-A simulator was developed to test the robot strategies :
-Your browser does not support the HTML5 Video element.  The following video is a nice match of the robot :
-Your browser does not support the HTML5 Video element.  </description>
+A simulator was developed to test the robot strategies :   The following video is a nice match of the robot :   </description>
     </item>
     
   </channel>
