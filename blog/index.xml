@@ -7,7 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2021 Francois Lancelot</copyright>
-    <lastBuildDate>Sun, 02 Jul 2017 08:14:51 +0700</lastBuildDate><atom:link href="https://www.francoislancelot.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jul 2017 08:14:51 +0700</lastBuildDate>
+    
+	<atom:link href="https://www.francoislancelot.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Audio classification on FM radio broadcasts :radio: </title>
+      <link>https://www.francoislancelot.com/blog/audio_classification_radio/</link>
+      <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/blog/audio_classification_radio/</guid>
+      <description>The transmitted FM signal is received by using a simple RTL-SDR dongle, which provides the baseband FM modulated signal. This signal is demodulated with GNURadio and then a deep learning model classifies the audio segments into three different classes : music, speech, and ads.   Developed with a RTL-SDR USB dongle, GNURadio, gr-osmosdr, and PANNs, Pretrained Audio Neural Networks for Audio Pattern Recognition.</description>
+    </item>
+    
     <item>
       <title>Exploring movies data in a triplestore 🎥</title>
       <link>https://www.francoislancelot.com/blog/exploring_movies_data_in_a_triplestore/</link>

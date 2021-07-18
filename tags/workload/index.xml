@@ -7,7 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2021 Francois Lancelot</copyright>
-    <lastBuildDate>Fri, 27 Mar 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://www.francoislancelot.com/tags/workload/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Mar 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.francoislancelot.com/tags/workload/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Real-time state estimation in a flight simulator using fNIRS :bar_chart:</title>
       <link>https://www.francoislancelot.com/blog/paper_2015_state_estimation_fnirs/</link>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sdr on François Lancelot</title>
+    <link>https://www.francoislancelot.com/tags/sdr/</link>
+    <description>Recent content in sdr on François Lancelot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2021 Francois Lancelot</copyright>
+    <lastBuildDate>Sun, 18 Jul 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.francoislancelot.com/tags/sdr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Audio classification on FM radio broadcasts :radio: </title>
+      <link>https://www.francoislancelot.com/blog/audio_classification_radio/</link>
+      <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.francoislancelot.com/blog/audio_classification_radio/</guid>
+      <description>The transmitted FM signal is received by using a simple RTL-SDR dongle, which provides the baseband FM modulated signal. This signal is demodulated with GNURadio and then a deep learning model classifies the audio segments into three different classes : music, speech, and ads.   Developed with a RTL-SDR USB dongle, GNURadio, gr-osmosdr, and PANNs, Pretrained Audio Neural Networks for Audio Pattern Recognition.</description>
+    </item>
+    
+  </channel>
+</rss>
