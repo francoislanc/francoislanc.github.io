@@ -5,11 +5,11 @@ theme = "manis"
 
 
 # Copyright notice. Note: You can use HTML tag here
-copyright = "&copy; 2022 Francois Lancelot"
+copyright = "&copy; 2023 Francois Lancelot"
 pluralizeListTitles = false
 
 # Minimum number of posts before paginate navigation show up
-paginate = 15
+paginate = 20
 
 # Your disqus shortname
 disqusShortname = ""
@@ -86,6 +86,7 @@ enableEmoji = true
 	# Social Links
     scholar = "https://scholar.google.fr/citations?user=XUGOVcoAAAAJ&hl=en"
     linkedin = "https://www.linkedin.com/in/francois-lancelot-aa049641"
+	github = "https://github.com/francoislanc"
 	# twitter = ""
 
 	# Analytics

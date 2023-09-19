@@ -5,7 +5,7 @@ tags = [
     "state",
     "workload",
     "fnirs",
-    "paper"
+    "research"
 ]
 date = "2015-03-27"
 +++

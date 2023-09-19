@@ -1,11 +1,11 @@
 +++
-title = "Sea life identification app :fish: "
+title = "Sea life identification app :fish:"
 description = ""
 tags = [
     "app",
     "flutter",
     "classification",
-    "sea life",
+    "sea-life",
     "machine learning"
 ]
 date = "2020-01-02"

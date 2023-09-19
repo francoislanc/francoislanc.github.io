@@ -5,7 +5,7 @@ tags = [
     "eye-tracking",
     "adaptation",
     "learning",
-    "paper"
+    "research"
 ]
 date = "2019-05-01"
 +++

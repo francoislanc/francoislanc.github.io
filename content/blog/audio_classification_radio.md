@@ -5,7 +5,7 @@ tags = [
     "classification",
     "sdr",
     "gnuradio",
-    "machine learning"
+    "machine-learning"
 ]
 date = "2021-07-18"
 +++

@@ -4,8 +4,9 @@ description = ""
 tags = [
     "atc",
     "speech",
+    "speech-to-text",
     "transcription",
-    "paper"
+    "research"
 ]
 date = "2018-10-04"
 +++
