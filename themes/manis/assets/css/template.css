@@ -163,31 +163,23 @@ li > p {
 }
 
 ul.no-bullet {
+  list-style: none;
   margin-left: 0;
   margin-bottom: 1.5rem;
 }
-@media (min-width: 40rem) {
-  ul.no-bullet {
-    list-style: none;
-    margin-left: 0;
-  }
-}
+
 .no-bullet li {
   margin-left: 0;
   font-size: 1.8rem;
 }
 .no-bullet span {
-  display: none;
+  margin-right: 1rem;
+  display: inline;
   font-size: 1.7rem;
   color: #666;
   font-family: monospace;
 }
-@media (min-width: 40rem) {
-  .no-bullet span {
-    margin-right: 1rem;
-    display: inline;
-  }
-}
+
 .terms li>span {
   color: #666;
   font-family: monospace;
@@ -323,7 +315,7 @@ ol {
   margin-bottom: 2.5rem; }
 
 #brand {
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 1.2rem;
 }
 

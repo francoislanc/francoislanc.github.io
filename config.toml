@@ -5,7 +5,7 @@ theme = "manis"
 
 
 # Copyright notice. Note: You can use HTML tag here
-copyright = "&copy; 2023 Francois Lancelot"
+copyright = ""
 pluralizeListTitles = false
 
 # Minimum number of posts before paginate navigation show up
@@ -72,11 +72,11 @@ enableEmoji = true
 	# Color of your website's accent
 	colorTheme = "#0277bd"
 	# Maximum number of item in Latest Posts or Works
-	latestCount = 6
+	latestCount = 100
 	# Path to site's favicon image
 	faviconImg = "/favicon.ico"
 	# Date format in item list
-	dateFmt = "Jan 02, 2006"
+	dateFmt = "Jan 2006"
 
 	# Code Highlighting (HighlightJS)
 	highlightJs = false
