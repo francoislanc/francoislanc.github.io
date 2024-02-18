@@ -3,7 +3,7 @@
     {%- for page in pages %}
     <section class="list-item">
         <div class="post-header">
-            <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
+            <time>{{ page.date | date(format="%Y-%m") }}</time>
 
             <div>
                 <h1 class="title">
@@ -83,7 +83,7 @@
 
                 <div class="meta">
                     {% if page.date %}
-                        Posted on <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
+                        Posted on <time>{{ page.date | date(format="%Y-%m") }}</time>
                     {% endif %}
 
                     {% if page.draft %}
