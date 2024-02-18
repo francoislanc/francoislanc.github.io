@@ -1,95 +1,29 @@
-baseURL = "https://www.francoislancelot.com/"
-languageCode = "en-us"
+base_url = "https://www.francoislancelot.com"
 title = "François Lancelot"
-theme = "manis"
+compile_sass = true
+theme = "apollo"
+build_search_index = true
+generate_feed = true
+minify_html = true
 
+[markdown]
+highlight_code = true
+render_emoji = true
 
-# Copyright notice. Note: You can use HTML tag here
-copyright = ""
-pluralizeListTitles = false
+[extra]
+toc = false
+use_cdn = false
+favicon = "/icon/favicon.ico"
+theme = "toggle"
 
-# Minimum number of posts before paginate navigation show up
-paginate = 20
+menu = [
+    { name = "/about", url = "/about", weight = 1 },
+]
 
-# Your disqus shortname
-disqusShortname = ""
+socials = [
+    { name = "github", url = "https://github.com/francoislanc", icon = "github" },
+    { name = "google-scholar", url = "https://scholar.google.fr/citations?user=XUGOVcoAAAAJ&hl=en", icon = "google-scholar" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/francois-lancelot-aa049641", icon = "linkedin" },
+]
 
-# Edit this if you want to translate your blog
-defaultContentLanguage = "en"
-
-# Code Highlighting (Chroma)
-pygmentsCodeFences = true
-pygmentsUseClasses = true
-
-enableEmoji = true
-
-[menu]
-	[[menu.main]]
-		name = "Blog"
-		url = "/blog/"
-	
-	[[menu.main]]
-		name = "About"
-		url = "/about"
-
-[taxonomies]
-	tag = "tags"
-
-[params]
-	# If false, use minified CSS (ui.min.css)
-	debugCSS = false
-	# Custom CSS
-	customCSS = []
-	
-	# Site meta description
-	description = "Francois Lancelot personal website."
-	# Site's Tagline (Subtitle or Keyword)
-	tagline = "Software Engineer | AI Research Engineer"
-	# If true give attribution to this theme
-	themeAttrib = false
-	# URL to license file, can be outside of your domain
-	# licenseURL = "/about/license"
-
-	# Configure which sections for Latest Posts
-	mainSections = ["blog"]
-	# Configure which sections for Latest Works
-	workSections = []
-	
-	# List of sections that support disqus comments
-	disqusSections = []
-	# List of sections that support utterances comments
-	utterancesSections = []
-	
-	# Utterances Configuration
-	utterancesRepo = ""
-	utterancesTheme = ""
-	utterancesLabel = ""
-
-	# 404 Configuration
-	head404 = "Sorry, I can't find what you want."
-	sub404 = "Back to <a href='/'>Home</a>."
-
-	# Color of your website's accent
-	colorTheme = "#0277bd"
-	# Maximum number of item in Latest Posts or Works
-	latestCount = 100
-	# Path to site's favicon image
-	faviconImg = "/favicon.ico"
-	# Date format in item list
-	dateFmt = "Jan 2006"
-
-	# Code Highlighting (HighlightJS)
-	highlightJs = false
-	highlightJsLanguages = [ "go" ]
-	highlightJsStyle = "ocean"
-
-	# Social Links
-    scholar = "https://scholar.google.fr/citations?user=XUGOVcoAAAAJ&hl=en"
-    linkedin = "https://www.linkedin.com/in/francois-lancelot-aa049641"
-	github = "https://github.com/francoislanc"
-	# twitter = ""
-
-	# Analytics
-	analytics = false
-	# analyticsGif = "https://shynet.francoislancelot.com/ingress/b10abb08-b2cd-47c7-91f5-c02a2545bfe7/pixel.gif"
-	# analyticsScript = "https://shynet.francoislancelot.com/ingress/b10abb08-b2cd-47c7-91f5-c02a2545bfe7/script.js"
+custom_css = []
