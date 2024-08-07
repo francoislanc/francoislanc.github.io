@@ -33,7 +33,7 @@ hr {
 }
 
 blockquote {
-  border-left: 3px solid var(--border-color);
+  border-left: 3px solid var(--primary-color);
   color: #737373;
   margin: 0;
   padding-left: 1em;
@@ -47,6 +47,10 @@ a {
   // Make sure the underline is at the top
   position: relative; // needed for z-index
   z-index: 1;
+}
+
+a.zola-anchor {
+  border-bottom: none;
 }
 
 a:hover {
@@ -67,6 +71,13 @@ time {
 /* Post list */
 .list-item {
   margin-bottom: 30px;
+  list-style-type: none;
+}
+
+// change the line-through color
+del {
+  text-decoration-color: var(--primary-color);
+  text-decoration-thickness: 3px;
 }
 
 @media all and (max-width: 640px) {
@@ -111,4 +122,11 @@ time {
   &:hover {
     background-color: transparent;
   }
+}
+
+.MathJax_Display,
+.MJXc-display,
+.MathJax_SVG_Display {
+  overflow-x: auto;
+  overflow-y: hidden;
 }
