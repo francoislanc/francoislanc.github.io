@@ -3,7 +3,7 @@ title = "François Lancelot"
 compile_sass = true
 theme = "apollo"
 build_search_index = true
-generate_feed = true
+generate_feeds = true
 minify_html = true
 
 [markdown]
