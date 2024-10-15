@@ -16,6 +16,3 @@ date = "2023-04-30"
 
 - Airbus UpNext #DragonFly demonstrator 
 {{ youtube(id="nubL1I7sxEE") }}
-  
-- Discover #DragonFly 
-{{ youtube(id="apgeeQE2H7Y") }}
