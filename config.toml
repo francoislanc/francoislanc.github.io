@@ -1,4 +1,4 @@
-base_url = "https://www.francoislancelot.com"
+base_url = "https://francoislancelot.com"
 title = "François Lancelot"
 compile_sass = true
 theme = "apollo"
