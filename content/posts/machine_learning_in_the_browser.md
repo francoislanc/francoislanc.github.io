@@ -16,4 +16,4 @@ Using the [Candle Rust ML framework](https://github.com/huggingface/candle), the
 
 [![App Screenshot](/webml/webml-speech-recognition-screenshot.png)](/webml/webml-speech-recognition-screenshot.png)
 
-The source code is available on [Github](https://github.com/francoislanc/webml).
+The source code is available on [Github](https://github.com/francoislanc/webml/tree/eb945dc35bacbbd1b16f99bb017034042f29774b).
