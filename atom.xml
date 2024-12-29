@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>François Lancelot</title>
+    <link rel="self" type="application/atom+xml" href="https://francoislancelot.com/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://francoislancelot.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-09-22T00:00:00+00:00</updated>
+    <id>https://francoislancelot.com/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Document Question Answering with ColPali &amp; Pixtral 📚</title>
+        <published>2024-09-22T00:00:00+00:00</published>
+        <updated>2024-09-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://francoislancelot.com/posts/document-question-answering-colpali-pixtral/"/>
+        <id>https://francoislancelot.com/posts/document-question-answering-colpali-pixtral/</id>
+        
+        <content type="html" xml:base="https://francoislancelot.com/posts/document-question-answering-colpali-pixtral/">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;huggingface.co&#x2F;vidore&#x2F;colpali-v1.2&quot;&gt;ColPali&lt;&#x2F;a&gt; indexes and retrieves relevant pages.  &lt;a href=&quot;https:&#x2F;&#x2F;huggingface.co&#x2F;mistralai&#x2F;Pixtral-12B-2409&quot;&gt;Pixtral&lt;&#x2F;a&gt; answers the query given the retrieved pages.&lt;&#x2F;p&gt;
+&lt;p&gt;App developed with &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;gradio-app&#x2F;gradio&quot;&gt;Gradio&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;document_question_answering_colpali_pixtral&#x2F;colpali-pixtral.png&quot;&gt;&lt;img src=&quot;&#x2F;document_question_answering_colpali_pixtral&#x2F;colpali-pixtral.png&quot; alt=&quot;App Screenshot&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The demo and source code are available on &lt;a href=&quot;https:&#x2F;&#x2F;huggingface.co&#x2F;spaces&#x2F;p3nguknight&#x2F;colpali-pixtral&quot;&gt;HF Spaces&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>LLM finetuned for generating symbolic music 🎼</title>
+        <published>2024-06-29T00:00:00+00:00</published>
+        <updated>2024-06-29T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://francoislancelot.com/posts/midistral-llm-finetuned-symbolic-music/"/>
+        <id>https://francoislancelot.com/posts/midistral-llm-finetuned-symbolic-music/</id>
+        
+        <content type="html" xml:base="https://francoislancelot.com/posts/midistral-llm-finetuned-symbolic-music/">&lt;p&gt;The model, named Midistral, is finetuned on the &lt;a href=&quot;https:&#x2F;&#x2F;huggingface.co&#x2F;datasets&#x2F;amaai-lab&#x2F;MidiCaps&quot;&gt;MidiCaps dataset&lt;&#x2F;a&gt;. The MIDI files from the dataset are converted to ABC notation files using &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;sshlien&#x2F;abcmidi&quot;&gt;midi2abc&lt;&#x2F;a&gt; executables.&lt;&#x2F;p&gt;
+&lt;p&gt;The input is a text description with genre, mood, and instruments.&lt;br &#x2F;&gt;
+The output is &lt;a href=&quot;https:&#x2F;&#x2F;abcnotation.com&#x2F;&quot;&gt;ABC music notation&lt;&#x2F;a&gt; that can be converted to MIDI and audio files.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;midistral_llm_music&#x2F;midistral-frontend.png&quot;&gt;&lt;img src=&quot;&#x2F;midistral_llm_music&#x2F;midistral-frontend.png&quot; alt=&quot;App Screenshot&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The source code is available on &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;francoislanc&#x2F;midistral&quot;&gt;Github&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Machine Learning in the browser with candle 🕯️</title>
+        <published>2023-11-18T00:00:00+00:00</published>
+        <updated>2023-11-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://francoislancelot.com/posts/machine-learning-in-the-browser/"/>
+        <id>https://francoislancelot.com/posts/machine-learning-in-the-browser/</id>
+        
+        <content type="html" xml:base="https://francoislancelot.com/posts/machine-learning-in-the-browser/">&lt;p&gt;ML-powered browser extensions for speech recognition and image captioning.
+Using the &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;huggingface&#x2F;candle&quot;&gt;Candle Rust ML framework&lt;&#x2F;a&gt;, the code is compiled to wasm and used inside browser extensions.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;webml&#x2F;webml-speech-recognition-screenshot.png&quot;&gt;&lt;img src=&quot;&#x2F;webml&#x2F;webml-speech-recognition-screenshot.png&quot; alt=&quot;App Screenshot&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The source code is available on &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;francoislanc&#x2F;webml&#x2F;tree&#x2F;eb945dc35bacbbd1b16f99bb017034042f29774b&quot;&gt;Github&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Exploring new pilot assistance technologies ✈️</title>
+        <published>2023-04-30T00:00:00+00:00</published>
+        <updated>2023-04-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://francoislancelot.com/posts/exploring-new-pilot-assistance-technologies/"/>
+        <id>https://francoislancelot.com/posts/exploring-new-pilot-assistance-technologies/</id>
+        
+        <content type="html" xml:base="https://francoislancelot.com/posts/exploring-new-pilot-assistance-technologies/">&lt;ul&gt;
+&lt;li&gt;Airbus UpNext #DragonFly demonstrator
+&lt;div &gt;
+    &lt;iframe
+        type=&quot;text&#x2F;html&quot;
+        src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;nubL1I7sxEE&quot;
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen&gt;
+    &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Galileo satellites in orbit 🛰️</title>
+        <published>2022-06-05T00:00:00+00:00</published>
+        <updated>2022-06-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://francoislancelot.com/posts/galileo-satellites-in-orbit/"/>
+        <id>https://francoislancelot.com/posts/galileo-satellites-in-orbit/</id>
+        
+        <content type="html" xml:base="https://francoislancelot.com/posts/galileo-satellites-in-orbit/">&lt;p&gt;An interactive virtual globe with &lt;a href=&quot;https:&#x2F;&#x2F;www.esa.int&#x2F;Applications&#x2F;Navigation&#x2F;Galileo&#x2F;Galileo_satellites&quot;&gt;Galileo satellites&lt;&#x2F;a&gt; in orbit.&lt;br &#x2F;&gt;
+The satellites&#x27; positions are computed using &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;shashwatak&#x2F;satellite-js&quot;&gt;satellite.js&lt;&#x2F;a&gt; with two-line elements (TLE) from the &lt;a href=&quot;https:&#x2F;&#x2F;www.celestrak.com&#x2F;NORAD&#x2F;elements&#x2F;&quot;&gt;NORAD website&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;galileo_satellites_in_orbit&#x2F;screenshot1.png&quot;&gt;&lt;img src=&quot;&#x2F;galileo_satellites_in_orbit&#x2F;screenshot1.png&quot; alt=&quot;App Screenshot&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Developed with &lt;a href=&quot;https:&#x2F;&#x2F;svelthree.dev&#x2F;&quot;&gt;svelthree&lt;&#x2F;a&gt;.&lt;br &#x2F;&gt;
+The source code is available on &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;francoislanc&#x2F;galileo-satellites-visualizer&quot;&gt;Github&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>TodoList app for a smartwatch ⌚</title>
+        <published>2022-03-13T00:00:00+00:00</published>
+        <updated>2022-03-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://francoislancelot.com/posts/todo-list-app-smart-watch/"/>
+        <id>https://francoislancelot.com/posts/todo-list-app-smart-watch/</id>
+        
+        <content type="html" xml:base="https://francoislancelot.com/posts/todo-list-app-smart-watch/">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;espruino.github.io&#x2F;BangleApps&#x2F;?q=todolist&quot;&gt;TodoList&lt;&#x2F;a&gt; is a simple app for the Bangle.js smartwatch to manage a list of todo items.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;todo_list_app_smart_watch&#x2F;screenshots.gif&quot; alt=&quot;screenshots&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The &lt;a href=&quot;https:&#x2F;&#x2F;banglejs.com&#x2F;&quot;&gt;Bangle.js&lt;&#x2F;a&gt; uses an open-source JavaScript interpreter for microcontrollers: &lt;a href=&quot;https:&#x2F;&#x2F;www.espruino.com&#x2F;&quot;&gt;Espruino&lt;&#x2F;a&gt;. It is designed for devices with small amounts of RAM (as low as 8kB).&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;todo_list_app_smart_watch&#x2F;todolist_banglejs.jpg&quot; alt=&quot;banglejs2&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Developed with &lt;a href=&quot;https:&#x2F;&#x2F;www.espruino.com&#x2F;Bangle.js+Getting+Started&quot;&gt;Espruino&lt;&#x2F;a&gt;.&lt;br &#x2F;&gt;
+The source code is available on &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;espruino&#x2F;BangleApps&#x2F;tree&#x2F;master&#x2F;apps&#x2F;todolist&quot;&gt;Github&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Audio classification on FM radio broadcasts 📻</title>
+        <published>2021-07-18T00:00:00+00:00</published>
+        <updated>2021-07-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://francoislancelot.com/posts/audio-classification-radio/"/>
+        <id>https://francoislancelot.com/posts/audio-classification-radio/</id>
+        
+        <content type="html" xml:base="https://francoislancelot.com/posts/audio-classification-radio/">&lt;p&gt;The transmitted FM signal is received by using a simple RTL-SDR dongle, which provides the baseband FM modulated signal. This signal is demodulated with GNURadio and then a deep learning model classifies the audio segments into three different classes : music, speech, and ads.
+&lt;div &gt;
+    &lt;iframe
+        type=&quot;text&#x2F;html&quot;
+        src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;2eyaEt0B1Nw&quot;
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen&gt;
+    &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;Developed with a RTL-SDR USB dongle, &lt;a href=&quot;https:&#x2F;&#x2F;www.gnuradio.org&#x2F;&quot;&gt;GNURadio&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;osmocom.org&#x2F;projects&#x2F;gr-osmosdr&#x2F;wiki&quot;&gt;gr-osmosdr&lt;&#x2F;a&gt;, and &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;qiuqiangkong&#x2F;audioset_tagging_cnn&quot;&gt;PANNs,  Pretrained Audio Neural Networks for Audio Pattern Recognition&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Exploring movies data in a triplestore 🎥</title>
+        <published>2021-01-03T00:00:00+00:00</published>
+        <updated>2021-01-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://francoislancelot.com/posts/exploring-movies-data-in-a-triplestore/"/>
+        <id>https://francoislancelot.com/posts/exploring-movies-data-in-a-triplestore/</id>
+        
+        <content type="html" xml:base="https://francoislancelot.com/posts/exploring-movies-data-in-a-triplestore/">&lt;p&gt;Let&#x27;s explore a &lt;a href=&quot;https:&#x2F;&#x2F;www.kaggle.com&#x2F;shivamb&#x2F;netflix-shows&quot;&gt;dataset&lt;&#x2F;a&gt; from Flixable, which is a third-party Netflix search engine and IMDb and try to answer the following questions:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;francoislancelot.com&#x2F;posts&#x2F;exploring-movies-data-in-a-triplestore&#x2F;.&#x2F;#query1&quot;&gt;What are the top movies on Netflix according to the IMDb rating?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;francoislancelot.com&#x2F;posts&#x2F;exploring-movies-data-in-a-triplestore&#x2F;.&#x2F;#query2&quot;&gt;What are the top countries producing films?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;francoislancelot.com&#x2F;posts&#x2F;exploring-movies-data-in-a-triplestore&#x2F;.&#x2F;#query3&quot;&gt;Who are the cast members who appear in the most Netflix Movies?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;francoislancelot.com&#x2F;posts&#x2F;exploring-movies-data-in-a-triplestore&#x2F;.&#x2F;#query4&quot;&gt;What are the top movies added on Netflix between May 2018 and August 2018?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;francoislancelot.com&#x2F;posts&#x2F;exploring-movies-data-in-a-triplestore&#x2F;.&#x2F;#query5&quot;&gt;What is the last movie from Steven Spielberg added on Netflix?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;The initial data are stored in a csv:
+&lt;a href=&quot;&#x2F;exploring_movies_data_in_a_triplestore&#x2F;movies_data_raw_csv.png&quot;&gt;&lt;img src=&quot;&#x2F;exploring_movies_data_in_a_triplestore&#x2F;movies_data_raw_csv.png&quot; alt=&quot;Initial csv data&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;After cleaning and transformation, the data are loaded into a triplestore for querying:
+&lt;a href=&quot;&#x2F;exploring_movies_data_in_a_triplestore&#x2F;movies_data_triplestore.png&quot;&gt;&lt;img src=&quot;&#x2F;exploring_movies_data_in_a_triplestore&#x2F;movies_data_triplestore.png&quot; alt=&quot;Data in a triplestore&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Then the questions are transformed into SPARQL-like queries and run against the triplestore:&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;query1&quot;&gt;1. What are the top movies on Netflix according to the IMDb rating?&lt;&#x2F;h2&gt;
+&lt;p&gt;Query:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;SELECT ?movie, ?rating
+&lt;&#x2F;span&gt;&lt;span&gt;FROM ?g
+&lt;&#x2F;span&gt;&lt;span&gt;WHERE {
+&lt;&#x2F;span&gt;&lt;span&gt;    ?movie &amp;quot;average_rating&amp;quot;@[] ?rating .
+&lt;&#x2F;span&gt;&lt;span&gt;    ?movie &amp;quot;num_votes&amp;quot;@[] ?votes
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span&gt;ORDER BY ?rating DESC
+&lt;&#x2F;span&gt;&lt;span&gt;HAVING ?votes &amp;gt; &amp;quot;5000&amp;quot;^^type:int64
+&lt;&#x2F;span&gt;&lt;span&gt;LIMIT &amp;quot;10&amp;quot;^^type:int64;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Output:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;?movie  ?rating
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;movie&amp;lt;schindlers list&amp;gt; &amp;quot;8.9&amp;quot;^^type:float64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;movie&amp;lt;pulp fiction&amp;gt;    &amp;quot;8.9&amp;quot;^^type:float64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;movie&amp;lt;the lord of the rings the return of the king&amp;gt;    &amp;quot;8.9&amp;quot;^^type:float64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;movie&amp;lt;inception&amp;gt;       &amp;quot;8.8&amp;quot;^^type:float64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;movie&amp;lt;the lord of the rings the two towers&amp;gt;    &amp;quot;8.7&amp;quot;^^type:float64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;movie&amp;lt;the matrix&amp;gt;      &amp;quot;8.7&amp;quot;^^type:float64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;movie&amp;lt;city of god&amp;gt;     &amp;quot;8.6&amp;quot;^^type:float64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;movie&amp;lt;once upon a time in the west&amp;gt;    &amp;quot;8.5&amp;quot;^^type:float64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;movie&amp;lt;the departed&amp;gt;    &amp;quot;8.5&amp;quot;^^type:float64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;movie&amp;lt;senna&amp;gt;   &amp;quot;8.5&amp;quot;^^type:float64
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;[OK] 10 rows retrieved. BQL time: 80.1355ms. Display time: 50.3µs
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;query2&quot;&gt;2. What are the top countries producing the films?&lt;&#x2F;h2&gt;
+&lt;p&gt;Query:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;SELECT ?country, COUNT(?movie) AS ?movies_count
+&lt;&#x2F;span&gt;&lt;span&gt;FROM ?g
+&lt;&#x2F;span&gt;&lt;span&gt;WHERE {
+&lt;&#x2F;span&gt;&lt;span&gt;    ?movie &amp;quot;country&amp;quot;@[] ?country
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span&gt;GROUP BY ?country
+&lt;&#x2F;span&gt;&lt;span&gt;ORDER BY ?movies_count DESC
+&lt;&#x2F;span&gt;&lt;span&gt;LIMIT &amp;quot;10&amp;quot;^^type:int64;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Output:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;?country        ?movies_count
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;United States&amp;quot;^^type:text      &amp;quot;1304&amp;quot;^^type:int64
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;India&amp;quot;^^type:text      &amp;quot;583&amp;quot;^^type:int64
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;United Kingdom&amp;quot;^^type:text     &amp;quot;277&amp;quot;^^type:int64
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;France&amp;quot;^^type:text     &amp;quot;151&amp;quot;^^type:int64
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;Canada&amp;quot;^^type:text     &amp;quot;146&amp;quot;^^type:int64
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;Germany&amp;quot;^^type:text    &amp;quot;103&amp;quot;^^type:int64
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;Spain&amp;quot;^^type:text      &amp;quot;92&amp;quot;^^type:int64
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;China&amp;quot;^^type:text      &amp;quot;76&amp;quot;^^type:int64
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;Hong Kong&amp;quot;^^type:text  &amp;quot;76&amp;quot;^^type:int64
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;Australia&amp;quot;^^type:text  &amp;quot;57&amp;quot;^^type:int64
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;[OK] 10 rows retrieved. BQL time: 30.8864ms. Display time: 43.1µs
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;query3&quot;&gt;3. Who are the cast members who appear in the most Netflix Movies?&lt;&#x2F;h2&gt;
+&lt;p&gt;Query:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;SELECT ?person, COUNT(?movie) AS ?movies_count
+&lt;&#x2F;span&gt;&lt;span&gt;FROM ?g
+&lt;&#x2F;span&gt;&lt;span&gt;WHERE {
+&lt;&#x2F;span&gt;&lt;span&gt;    ?person &amp;quot;played&amp;quot;@[] ?movie
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span&gt;GROUP BY ?person
+&lt;&#x2F;span&gt;&lt;span&gt;ORDER BY ?movies_count DESC
+&lt;&#x2F;span&gt;&lt;span&gt;LIMIT &amp;quot;10&amp;quot;^^type:int64;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Output:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;?person ?movies_count
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;person&amp;lt;Shah Rukh Khan&amp;gt; &amp;quot;23&amp;quot;^^type:int64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;person&amp;lt;Boman Irani&amp;gt;    &amp;quot;22&amp;quot;^^type:int64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;person&amp;lt;Akshay Kumar&amp;gt;   &amp;quot;21&amp;quot;^^type:int64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;person&amp;lt;Paresh Rawal&amp;gt;   &amp;quot;20&amp;quot;^^type:int64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;person&amp;lt;Anupam Kher&amp;gt;    &amp;quot;19&amp;quot;^^type:int64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;person&amp;lt;Naseeruddin Shah&amp;gt;       &amp;quot;18&amp;quot;^^type:int64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;person&amp;lt;Om Puri&amp;gt;        &amp;quot;17&amp;quot;^^type:int64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;person&amp;lt;Nicolas Cage&amp;gt;   &amp;quot;16&amp;quot;^^type:int64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;person&amp;lt;Gulshan Grover&amp;gt; &amp;quot;15&amp;quot;^^type:int64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;person&amp;lt;Kay Kay Menon&amp;gt;  &amp;quot;15&amp;quot;^^type:int64
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;[OK] 10 rows retrieved. BQL time: 229.6949ms. Display time: 48.9µs
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;query4&quot;&gt;4. What are the top movies added on Netflix between May 2018 and August 2018?&lt;&#x2F;h2&gt;
+&lt;p&gt;Query:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;SELECT ?movie, ?time, ?rating
+&lt;&#x2F;span&gt;&lt;span&gt;FROM ?g
+&lt;&#x2F;span&gt;&lt;span&gt;WHERE {
+&lt;&#x2F;span&gt;&lt;span&gt;    &#x2F;platform&amp;lt;Netflix&amp;gt; &amp;quot;added&amp;quot;@[?time] ?movie .
+&lt;&#x2F;span&gt;&lt;span&gt;    ?movie &amp;quot;average_rating&amp;quot;@[] ?rating .
+&lt;&#x2F;span&gt;&lt;span&gt;    ?movie &amp;quot;num_votes&amp;quot;@[] ?votes
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span&gt;ORDER BY ?rating DESC
+&lt;&#x2F;span&gt;&lt;span&gt;HAVING ?votes &amp;gt; &amp;quot;5000&amp;quot;^^type:int64
+&lt;&#x2F;span&gt;&lt;span&gt;BETWEEN 2018-05-01T00:00:00Z, 2018-08-31T00:00:00Z
+&lt;&#x2F;span&gt;&lt;span&gt;LIMIT &amp;quot;10&amp;quot;^^type:int64;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Output:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;?movie  ?time   ?rating
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;movie&amp;lt;rang de basanti&amp;gt; 2018-08-02T00:00:00Z    &amp;quot;8.2&amp;quot;^^type:float64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;movie&amp;lt;andaz apna apna&amp;gt; 2018-05-16T00:00:00Z    &amp;quot;8.2&amp;quot;^^type:float64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;movie&amp;lt;room&amp;gt;    2018-07-19T00:00:00Z    &amp;quot;8.1&amp;quot;^^type:float64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;movie&amp;lt;haider&amp;gt;  2018-08-02T00:00:00Z    &amp;quot;8.1&amp;quot;^^type:float64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;movie&amp;lt;inequality for all&amp;gt;      2018-08-29T00:00:00Z    &amp;quot;8&amp;quot;^^type:float64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;movie&amp;lt;her&amp;gt;     2018-07-29T00:00:00Z    &amp;quot;8&amp;quot;^^type:float64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;movie&amp;lt;the kings speech&amp;gt;        2018-06-02T00:00:00Z    &amp;quot;8&amp;quot;^^type:float64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;movie&amp;lt;thor ragnarok&amp;gt;   2018-06-05T00:00:00Z    &amp;quot;7.9&amp;quot;^^type:float64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;movie&amp;lt;pad man&amp;gt; 2018-08-21T00:00:00Z    &amp;quot;7.9&amp;quot;^^type:float64
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;movie&amp;lt;amy&amp;gt;     2018-07-26T00:00:00Z    &amp;quot;7.8&amp;quot;^^type:float64
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;[OK] 10 rows retrieved. BQL time: 10.38ms. Display time: 58µs
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;query5&quot;&gt;5. What is the last movie from Steven Spielberg added on Netflix?&lt;&#x2F;h2&gt;
+&lt;p&gt;Query:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;SELECT ?movie, ?time
+&lt;&#x2F;span&gt;&lt;span&gt;FROM ?g
+&lt;&#x2F;span&gt;&lt;span&gt;WHERE {
+&lt;&#x2F;span&gt;&lt;span&gt;    &#x2F;platform&amp;lt;Netflix&amp;gt; &amp;quot;added&amp;quot;@[?time] ?movie .
+&lt;&#x2F;span&gt;&lt;span&gt;    &#x2F;person&amp;lt;Steven Spielberg&amp;gt; &amp;quot;directed&amp;quot;@[] ?movie
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span&gt;ORDER BY ?time DESC
+&lt;&#x2F;span&gt;&lt;span&gt;LIMIT &amp;quot;1&amp;quot;^^type:int64;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Output:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;?movie  ?time
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;movie&amp;lt;catch me if you can&amp;gt;     2020-01-01T00:00:00Z
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;[OK] 1 rows retrieved. BQL time: 18.1343ms. Display time: 35.1µs
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Developed with &lt;a href=&quot;http:&#x2F;&#x2F;google.github.io&#x2F;badwolf&#x2F;&quot;&gt;Badwolf&lt;&#x2F;a&gt; triplestore and &lt;a href=&quot;https:&#x2F;&#x2F;g6.antv.vision&#x2F;en&quot;&gt;G6&lt;&#x2F;a&gt; graph visualization engine.&lt;br &#x2F;&gt;
+The source code is available on &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;francoislanc&#x2F;exploring-movies-data-in-a-triplestore&quot;&gt;Github&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Scikit-learn in a Vue.js app 🐍</title>
+        <published>2020-08-19T00:00:00+00:00</published>
+        <updated>2020-08-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://francoislancelot.com/posts/scikitlearn-vuejs-app-example/"/>
+        <id>https://francoislancelot.com/posts/scikitlearn-vuejs-app-example/</id>
+        
+        <content type="html" xml:base="https://francoislancelot.com/posts/scikitlearn-vuejs-app-example/">&lt;p&gt;A Vue.js example app which runs &quot;&lt;a href=&quot;https:&#x2F;&#x2F;scikit-learn.org&#x2F;stable&#x2F;modules&#x2F;generated&#x2F;sklearn.model_selection.train_test_split.html&quot;&gt;train_test_split&lt;&#x2F;a&gt;&quot; from scikit-learn with only the browser and no python server. It uses &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;iodide-project&#x2F;pyodide&quot;&gt;Pyodide&lt;&#x2F;a&gt;, which is an experimental project to create a full Python data science stack that runs entirely in the browser. For more information on Pyodide, checkout this &lt;a href=&quot;https:&#x2F;&#x2F;hacks.mozilla.org&#x2F;2019&#x2F;04&#x2F;pyodide-bringing-the-scientific-python-stack-to-the-browser&#x2F;&quot;&gt;mozilla blog post&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;scikitlearn_vuejs_app_example&#x2F;pyodide-vuejs-app-example.gif&quot;&gt;&lt;img src=&quot;&#x2F;scikitlearn_vuejs_app_example&#x2F;pyodide-vuejs-app-example.gif&quot; alt=&quot;App Screenshot&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Developed with &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;iodide-project&#x2F;pyodide&quot;&gt;pyodide&lt;&#x2F;a&gt;, &lt;a href=&quot;http:&#x2F;&#x2F;scikit-learn.org&#x2F;&quot;&gt;scikit-learn&lt;&#x2F;a&gt;, and &lt;a href=&quot;https:&#x2F;&#x2F;vuejs.org&#x2F;&quot;&gt;Vue.js&lt;&#x2F;a&gt;.&lt;br &#x2F;&gt;
+The source code is available on &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;francoislanc&#x2F;pyodide-vuejs-app-example&quot;&gt;Github&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>QA system for aircraft pilots&#x27; documentation 📄</title>
+        <published>2020-07-20T00:00:00+00:00</published>
+        <updated>2020-07-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://francoislancelot.com/posts/question-answering-for-aircraft-pilots-documentation/"/>
+        <id>https://francoislancelot.com/posts/question-answering-for-aircraft-pilots-documentation/</id>
+        
+        <content type="html" xml:base="https://francoislancelot.com/posts/question-answering-for-aircraft-pilots-documentation/">&lt;p&gt;&lt;a href=&quot;&#x2F;qa_pilot_documentation&#x2F;qa_pilot_documentation.jpg&quot;&gt;&lt;img src=&quot;&#x2F;qa_pilot_documentation&#x2F;qa_pilot_documentation.jpg&quot; alt=&quot;Screenshot of the prototype showing conversation on the left, search result panel in the center and document view on the right&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.researchgate.net&#x2F;profile&#x2F;Gerard-Dupont&#x2F;publication&#x2F;334848904_Conversational_agent_for_aerospace_question_answering_-_A_position_paper&#x2F;links&#x2F;5d4356684585153e59353748&#x2F;Conversational-agent-for-aerospace-question-answering-A-position-paper.pdf&quot;&gt;Arnold, A., Dupont, G., Kobus, C. and Lancelot, F., 2019. Conversational agent for aerospace question answering: A position paper. In Proceedings of the 1st Workshop on Conversational Interaction Systems (WCIS at SIGIR). Paris.&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2011.13284&quot;&gt;Arnold, A., Dupont, G., Furger, F., Kobus, C. and Lancelot, F., 2020. A question-answering system for aircraft pilots&#x27; documentation. arXiv preprint arXiv:2011.13284.&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ceur-ws.org&#x2F;Vol-2621&#x2F;CIRCLE20_21.pdf&quot;&gt;Liu, Y.H., Arnold, A., Dupont, G., Kobus, C. and Lancelot, F., 2020, July. Evaluation of Conversational Agents for Aerospace Domain. In CIRCLE.&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.1080&#x2F;10447318.2023.2239544&quot;&gt;Liu, Y.H., Arnold, A., Dupont, G., Kobus, C., Lancelot, F., Granger, G., Rouillard, Y., Duchevet, A., Imbert, J.P. and Matton, N., 2023. User Evaluation of Conversational Agents for Aerospace Domain. International Journal of Human–Computer Interaction, pp.1-20.&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Visual recipes website 👨‍🍳</title>
+        <published>2020-06-20T00:00:00+00:00</published>
+        <updated>2020-06-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://francoislancelot.com/posts/visual-recipes/"/>
+        <id>https://francoislancelot.com/posts/visual-recipes/</id>
+        
+        <content type="html" xml:base="https://francoislancelot.com/posts/visual-recipes/">&lt;p&gt;A website that hosts recipes with an original layout.
+&lt;div &gt;
+    &lt;iframe
+        type=&quot;text&#x2F;html&quot;
+        src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;3as9yZq_N_M&quot;
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen&gt;
+    &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;It supports multiple languages and multiple units of measurement.&lt;&#x2F;p&gt;
+&lt;p&gt;Developed with &lt;a href=&quot;https:&#x2F;&#x2F;www.phoenixframework.org&#x2F;&quot;&gt;phoenix&#x2F;elixir&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Sailing simulator web app ⛵</title>
+        <published>2020-05-16T00:00:00+00:00</published>
+        <updated>2020-05-16T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://francoislancelot.com/posts/sailing-simulator-web-app/"/>
+        <id>https://francoislancelot.com/posts/sailing-simulator-web-app/</id>
+        
+        <content type="html" xml:base="https://francoislancelot.com/posts/sailing-simulator-web-app/">&lt;p&gt;A web app in which you can select the boat&#x27;s initial position, select wind orientation, select a route to follow, and run a simulation with a simple sailing model.
+&lt;div &gt;
+    &lt;iframe
+        type=&quot;text&#x2F;html&quot;
+        src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;HydNiMi3rhE&quot;
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen&gt;
+    &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;Developed with &lt;a href=&quot;https:&#x2F;&#x2F;visgl.github.io&#x2F;react-map-gl&#x2F;&quot;&gt;react-map-gl&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;boardgame.io&#x2F;&quot;&gt;boardgame.io&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;⛵ Bon vent et bonne mer (Fair winds and following seas) !&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Sea life identification app 🐟</title>
+        <published>2020-01-02T00:00:00+00:00</published>
+        <updated>2020-01-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://francoislancelot.com/posts/sea-life-identification-app/"/>
+        <id>https://francoislancelot.com/posts/sea-life-identification-app/</id>
+        
+        <content type="html" xml:base="https://francoislancelot.com/posts/sea-life-identification-app/">&lt;p&gt;Sea Life IDentification App is an android mobile application that can automatically identify marine life from your underwater photos and videos.
+&lt;div &gt;
+    &lt;iframe
+        type=&quot;text&#x2F;html&quot;
+        src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;7Tca_yYdgUQ&quot;
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen&gt;
+    &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;Developed with &lt;a href=&quot;https:&#x2F;&#x2F;flutter.dev&#x2F;&quot;&gt;Flutter&lt;&#x2F;a&gt; and with a custom tensorflow lite model for the classification.&lt;br &#x2F;&gt;
+The app is available in &lt;a href=&quot;https:&#x2F;&#x2F;play.google.com&#x2F;store&#x2F;apps&#x2F;details?id=com.scubacompanion.underwatervideotagging&amp;amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1&quot;&gt;Google Play Store : Sea Life ID&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The source code is available on &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;francoislanc&#x2F;sea-life-identification&quot;&gt;Github&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Using eye-tracking as input for system adaptation 👀</title>
+        <published>2019-05-01T00:00:00+00:00</published>
+        <updated>2019-05-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://francoislancelot.com/posts/paper-2019-eye-tracking-adaptation/"/>
+        <id>https://francoislancelot.com/posts/paper-2019-eye-tracking-adaptation/</id>
+        
+        <content type="html" xml:base="https://francoislancelot.com/posts/paper-2019-eye-tracking-adaptation/">&lt;p&gt;&lt;img src=&quot;&#x2F;2019_eye_tracking_adaptation&#x2F;paper_xp_eye_tracking_adaptation.png&quot; alt=&quot;xp setup&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.sciencedirect.com&#x2F;science&#x2F;article&#x2F;abs&#x2F;pii&#x2F;S1071581918306888&quot;&gt;Causse, M., Lancelot, F., Maillant, J., Behrend, J., Cousy, M. and Schneider, N., 2019. Encoding decisions and expertise in the operator&#x27;s eyes: Using eye-tracking as input for system adaptation. International Journal of Human-Computer Studies, 125, pp.55-65.&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Air traffic control speech recognition challenge 🔉</title>
+        <published>2018-10-04T00:00:00+00:00</published>
+        <updated>2018-10-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://francoislancelot.com/posts/2018-atc-speech-reco-challenge/"/>
+        <id>https://francoislancelot.com/posts/2018-atc-speech-reco-challenge/</id>
+        
+        <content type="html" xml:base="https://francoislancelot.com/posts/2018-atc-speech-reco-challenge/">&lt;p&gt;&lt;img src=&quot;&#x2F;2018_atc_speech_reco_challenge&#x2F;atc_speech_reco.png&quot; alt=&quot;atc stt challenge image&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;pdf&#x2F;1810.12614.pdf&quot;&gt;Pellegrini, T., Farinas, J., Delpech, E. and Lancelot, F., 2018. The Airbus Air Traffic Control speech recognition 2018 challenge: towards ATC automatic transcription and call sign detection. arXiv preprint arXiv:1810.12614.&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Modern taxiing on airport ground control 🚕</title>
+        <published>2015-06-03T00:00:00+00:00</published>
+        <updated>2015-06-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://francoislancelot.com/posts/paper-2015-modern-taxiing-airport/"/>
+        <id>https://francoislancelot.com/posts/paper-2015-modern-taxiing-airport/</id>
+        
+        <content type="html" xml:base="https://francoislancelot.com/posts/paper-2015-modern-taxiing-airport/">&lt;p&gt;&lt;img src=&quot;&#x2F;2015_modern_taxiing_airport_ground_control&#x2F;mota_path_suggestion_screenshot.png&quot; alt=&quot;path suggestion example&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;link.springer.com&#x2F;chapter&#x2F;10.1007&#x2F;978-3-319-19629-9_29&quot;&gt;Lancelot, F., Causse, M., Schneider, N. and Mongeau, M., 2015. Human-in-the-loop multi-agent approach for airport taxiing operations. In Trends in Practical Applications of Agents, Multi-Agent Systems and Sustainability (pp. 235-236). Springer, Cham.&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;abs&#x2F;10.1145&#x2F;2950112.2964589&quot;&gt;Chua, Z., Cousy, M., Causse, M. and Lancelot, F., 2016, September. Initial assessment of the impact of modern taxiing techniques on airport ground control. In Proceedings of the International Conference on Human-Computer Interaction in Aerospace (pp. 1-8).&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Real-time state estimation using fNIRS 📊</title>
+        <published>2015-03-27T00:00:00+00:00</published>
+        <updated>2015-03-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://francoislancelot.com/posts/paper-2015-state-estimation-fnirs/"/>
+        <id>https://francoislancelot.com/posts/paper-2015-state-estimation-fnirs/</id>
+        
+        <content type="html" xml:base="https://francoislancelot.com/posts/paper-2015-state-estimation-fnirs/">&lt;p&gt;&lt;img src=&quot;&#x2F;paper_2015_state_estimation_fnirs&#x2F;paper_2015_schema_xp.png&quot; alt=&quot;paper xp image&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;journals.plos.org&#x2F;plosone&#x2F;article?id=10.1371&#x2F;journal.pone.0121279&quot;&gt;Gateau, T., Durantin, G., Lancelot, F., Scannella, S. and Dehais, F., 2015. Real-time state estimation in a flight simulator using fNIRS. PloS one, 10(3), p.e0121279.&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Remote control car to arduino robot 🚗</title>
+        <published>2012-08-20T00:00:00+00:00</published>
+        <updated>2012-08-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://francoislancelot.com/posts/rc-car-to-arduino-robot/"/>
+        <id>https://francoislancelot.com/posts/rc-car-to-arduino-robot/</id>
+        
+        <content type="html" xml:base="https://francoislancelot.com/posts/rc-car-to-arduino-robot/">&lt;p&gt;A remote control (RC) car modified to become an Arduino Robot :&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;rc_car_to_arduino_robot&#x2F;rc_car.jpg&quot; alt=&quot;RC car&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;rc_car_to_arduino_robot&#x2F;arduino_robot.gif&quot; alt=&quot;Robot&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Developed with an Arduino Mega board.&lt;br &#x2F;&gt;
+The source code is available on &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;francoislanc&#x2F;arduino-car&quot;&gt;Github&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Eurobot 2011 🤖</title>
+        <published>2011-06-30T00:00:00+00:00</published>
+        <updated>2011-06-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://francoislancelot.com/posts/eurobot-2011/"/>
+        <id>https://francoislancelot.com/posts/eurobot-2011/</id>
+        
+        <content type="html" xml:base="https://francoislancelot.com/posts/eurobot-2011/">&lt;p&gt;Since 1998, Eurobot is an international robotics contest. The photo below shows the robot built in 2011 with the robotics club of INSA Toulouse.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;eurobot_2011&#x2F;eurobot_2011_insa.jpg&quot; alt=&quot;Screenshot&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;A simulator was developed to test the robot strategies :
+&lt;div &gt;
+    &lt;iframe
+        type=&quot;text&#x2F;html&quot;
+        src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;4brjNhRbcGE&quot;
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen&gt;
+    &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;The following video is a nice match of the robot :
+&lt;div &gt;
+    &lt;iframe
+        type=&quot;text&#x2F;html&quot;
+        src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;mxf1Q9k2C2c&quot;
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen&gt;
+    &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

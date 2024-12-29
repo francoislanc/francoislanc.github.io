@@ -1,0 +1,104 @@
+<!doctype html><html lang=en><head><meta charset=UTF-8><meta content="IE=edge" http-equiv=X-UA-Compatible><meta content="width=device-width,initial-scale=1.0" name=viewport><title>
+         Exploring movies data in a triplestore 🎥
+        
+    </title><meta content="Exploring movies data in a triplestore 🎥" property=og:title><link href=/icon/favicon.ico rel=icon type=image/png><link href=https://francoislancelot.com/fonts.css rel=stylesheet><link title="François Lancelot" href=https://francoislancelot.com/atom.xml rel=alternate type=application/atom+xml><link href=https://francoislancelot.com/theme/light.css rel=stylesheet><link href=https://francoislancelot.com/theme/dark.css id=darkModeStyle rel=stylesheet><script src=https://francoislancelot.com/js/themetoggle.js></script><script>setTheme(getSavedTheme())</script><link href=https://francoislancelot.com/main.css media=screen rel=stylesheet><body><div class=content><header><div class=main><a href=https://francoislancelot.com>François Lancelot</a><div class=socials><a class=social href=https://github.com/francoislanc rel=me> <img alt=github src=https://francoislancelot.com/social_icons/github.svg> </a><a href="https://scholar.google.fr/citations?user=XUGOVcoAAAAJ&hl=en" class=social rel=me> <img alt=google-scholar src=https://francoislancelot.com/social_icons/google-scholar.svg> </a><a class=social href=https://www.linkedin.com/in/francois-lancelot-aa049641 rel=me> <img alt=linkedin src=https://francoislancelot.com/social_icons/linkedin.svg> </a></div></div><nav><a href=https://francoislancelot.com/about style=margin-left:.5em>/about</a> |<a onclick="toggleTheme(); event.preventDefault();" href=# id=dark-mode-toggle> <img alt=Light id=sun-icon src=https://francoislancelot.com/feather/sun.svg style=filter:invert()> <img alt=Dark id=moon-icon src=https://francoislancelot.com/feather/moon.svg> </a><script>updateItemToggleTheme()</script></nav></header><main><article><div class=title><div class=page-header>Exploring movies data in a triplestore 🎥<span class=primary-color style=font-size:1.6em>.</span></div><div class=meta>Posted on <time>2021-01</time></div></div><section class=body><p>Let's explore a <a href=https://www.kaggle.com/shivamb/netflix-shows>dataset</a> from Flixable, which is a third-party Netflix search engine and IMDb and try to answer the following questions:<ol><li><a href=https://francoislancelot.com/posts/exploring-movies-data-in-a-triplestore/./#query1>What are the top movies on Netflix according to the IMDb rating?</a><li><a href=https://francoislancelot.com/posts/exploring-movies-data-in-a-triplestore/./#query2>What are the top countries producing films?</a><li><a href=https://francoislancelot.com/posts/exploring-movies-data-in-a-triplestore/./#query3>Who are the cast members who appear in the most Netflix Movies?</a><li><a href=https://francoislancelot.com/posts/exploring-movies-data-in-a-triplestore/./#query4>What are the top movies added on Netflix between May 2018 and August 2018?</a><li><a href=https://francoislancelot.com/posts/exploring-movies-data-in-a-triplestore/./#query5>What is the last movie from Steven Spielberg added on Netflix?</a></ol><p>The initial data are stored in a csv: <a href=/exploring_movies_data_in_a_triplestore/movies_data_raw_csv.png><img alt="Initial csv data" src=/exploring_movies_data_in_a_triplestore/movies_data_raw_csv.png></a><p>After cleaning and transformation, the data are loaded into a triplestore for querying: <a href=/exploring_movies_data_in_a_triplestore/movies_data_triplestore.png><img alt="Data in a triplestore" src=/exploring_movies_data_in_a_triplestore/movies_data_triplestore.png></a><p>Then the questions are transformed into SPARQL-like queries and run against the triplestore:<h2 id=query1>1. What are the top movies on Netflix according to the IMDb rating?</h2><p>Query:<pre style=color:#c0c5ce;background-color:#2b303b><code><span>SELECT ?movie, ?rating
+</span><span>FROM ?g
+</span><span>WHERE {
+</span><span>    ?movie "average_rating"@[] ?rating .
+</span><span>    ?movie "num_votes"@[] ?votes
+</span><span>}
+</span><span>ORDER BY ?rating DESC
+</span><span>HAVING ?votes > "5000"^^type:int64
+</span><span>LIMIT "10"^^type:int64;
+</span></code></pre><p>Output:<pre style=color:#c0c5ce;background-color:#2b303b><code><span>?movie  ?rating
+</span><span>/movie&LTschindlers list> "8.9"^^type:float64
+</span><span>/movie&LTpulp fiction>    "8.9"^^type:float64
+</span><span>/movie&LTthe lord of the rings the return of the king>    "8.9"^^type:float64
+</span><span>/movie&LTinception>       "8.8"^^type:float64
+</span><span>/movie&LTthe lord of the rings the two towers>    "8.7"^^type:float64
+</span><span>/movie&LTthe matrix>      "8.7"^^type:float64
+</span><span>/movie&LTcity of god>     "8.6"^^type:float64
+</span><span>/movie&LTonce upon a time in the west>    "8.5"^^type:float64
+</span><span>/movie&LTthe departed>    "8.5"^^type:float64
+</span><span>/movie&LTsenna>   "8.5"^^type:float64
+</span><span>
+</span><span>[OK] 10 rows retrieved. BQL time: 80.1355ms. Display time: 50.3µs
+</span></code></pre><h2 id=query2>2. What are the top countries producing the films?</h2><p>Query:<pre style=color:#c0c5ce;background-color:#2b303b><code><span>SELECT ?country, COUNT(?movie) AS ?movies_count
+</span><span>FROM ?g
+</span><span>WHERE {
+</span><span>    ?movie "country"@[] ?country
+</span><span>}
+</span><span>GROUP BY ?country
+</span><span>ORDER BY ?movies_count DESC
+</span><span>LIMIT "10"^^type:int64;
+</span></code></pre><p>Output:<pre style=color:#c0c5ce;background-color:#2b303b><code><span>?country        ?movies_count
+</span><span>"United States"^^type:text      "1304"^^type:int64
+</span><span>"India"^^type:text      "583"^^type:int64
+</span><span>"United Kingdom"^^type:text     "277"^^type:int64
+</span><span>"France"^^type:text     "151"^^type:int64
+</span><span>"Canada"^^type:text     "146"^^type:int64
+</span><span>"Germany"^^type:text    "103"^^type:int64
+</span><span>"Spain"^^type:text      "92"^^type:int64
+</span><span>"China"^^type:text      "76"^^type:int64
+</span><span>"Hong Kong"^^type:text  "76"^^type:int64
+</span><span>"Australia"^^type:text  "57"^^type:int64
+</span><span>
+</span><span>[OK] 10 rows retrieved. BQL time: 30.8864ms. Display time: 43.1µs
+</span></code></pre><h2 id=query3>3. Who are the cast members who appear in the most Netflix Movies?</h2><p>Query:<pre style=color:#c0c5ce;background-color:#2b303b><code><span>SELECT ?person, COUNT(?movie) AS ?movies_count
+</span><span>FROM ?g
+</span><span>WHERE {
+</span><span>    ?person "played"@[] ?movie
+</span><span>}
+</span><span>GROUP BY ?person
+</span><span>ORDER BY ?movies_count DESC
+</span><span>LIMIT "10"^^type:int64;
+</span></code></pre><p>Output:<pre style=color:#c0c5ce;background-color:#2b303b><code><span>?person ?movies_count
+</span><span>/person&LTShah Rukh Khan> "23"^^type:int64
+</span><span>/person&LTBoman Irani>    "22"^^type:int64
+</span><span>/person&LTAkshay Kumar>   "21"^^type:int64
+</span><span>/person&LTParesh Rawal>   "20"^^type:int64
+</span><span>/person&LTAnupam Kher>    "19"^^type:int64
+</span><span>/person&LTNaseeruddin Shah>       "18"^^type:int64
+</span><span>/person&LTOm Puri>        "17"^^type:int64
+</span><span>/person&LTNicolas Cage>   "16"^^type:int64
+</span><span>/person&LTGulshan Grover> "15"^^type:int64
+</span><span>/person&LTKay Kay Menon>  "15"^^type:int64
+</span><span>
+</span><span>[OK] 10 rows retrieved. BQL time: 229.6949ms. Display time: 48.9µs
+</span></code></pre><h2 id=query4>4. What are the top movies added on Netflix between May 2018 and August 2018?</h2><p>Query:<pre style=color:#c0c5ce;background-color:#2b303b><code><span>SELECT ?movie, ?time, ?rating
+</span><span>FROM ?g
+</span><span>WHERE {
+</span><span>    /platform&LTNetflix> "added"@[?time] ?movie .
+</span><span>    ?movie "average_rating"@[] ?rating .
+</span><span>    ?movie "num_votes"@[] ?votes
+</span><span>}
+</span><span>ORDER BY ?rating DESC
+</span><span>HAVING ?votes > "5000"^^type:int64
+</span><span>BETWEEN 2018-05-01T00:00:00Z, 2018-08-31T00:00:00Z
+</span><span>LIMIT "10"^^type:int64;
+</span></code></pre><p>Output:<pre style=color:#c0c5ce;background-color:#2b303b><code><span>?movie  ?time   ?rating
+</span><span>/movie&LTrang de basanti> 2018-08-02T00:00:00Z    "8.2"^^type:float64
+</span><span>/movie&LTandaz apna apna> 2018-05-16T00:00:00Z    "8.2"^^type:float64
+</span><span>/movie&LTroom>    2018-07-19T00:00:00Z    "8.1"^^type:float64
+</span><span>/movie&LThaider>  2018-08-02T00:00:00Z    "8.1"^^type:float64
+</span><span>/movie&LTinequality for all>      2018-08-29T00:00:00Z    "8"^^type:float64
+</span><span>/movie&LTher>     2018-07-29T00:00:00Z    "8"^^type:float64
+</span><span>/movie&LTthe kings speech>        2018-06-02T00:00:00Z    "8"^^type:float64
+</span><span>/movie&LTthor ragnarok>   2018-06-05T00:00:00Z    "7.9"^^type:float64
+</span><span>/movie&LTpad man> 2018-08-21T00:00:00Z    "7.9"^^type:float64
+</span><span>/movie&LTamy>     2018-07-26T00:00:00Z    "7.8"^^type:float64
+</span><span>
+</span><span>[OK] 10 rows retrieved. BQL time: 10.38ms. Display time: 58µs
+</span></code></pre><h2 id=query5>5. What is the last movie from Steven Spielberg added on Netflix?</h2><p>Query:<pre style=color:#c0c5ce;background-color:#2b303b><code><span>SELECT ?movie, ?time
+</span><span>FROM ?g
+</span><span>WHERE {
+</span><span>    /platform&LTNetflix> "added"@[?time] ?movie .
+</span><span>    /person&LTSteven Spielberg> "directed"@[] ?movie
+</span><span>}
+</span><span>ORDER BY ?time DESC
+</span><span>LIMIT "1"^^type:int64;
+</span></code></pre><p>Output:<pre style=color:#c0c5ce;background-color:#2b303b><code><span>?movie  ?time
+</span><span>/movie&LTcatch me if you can>     2020-01-01T00:00:00Z
+</span><span>
+</span><span>[OK] 1 rows retrieved. BQL time: 18.1343ms. Display time: 35.1µs
+</span></code></pre><p>Developed with <a href=http://google.github.io/badwolf/>Badwolf</a> triplestore and <a href=https://g6.antv.vision/en>G6</a> graph visualization engine.<br> The source code is available on <a href=https://github.com/francoislanc/exploring-movies-data-in-a-triplestore>Github</a>.</section></article></main></div>
